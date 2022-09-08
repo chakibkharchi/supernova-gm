@@ -1,0 +1,9231 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.math3exo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+section.exomath3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+section.exomath3 a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:#242323;
+}
+section.exomath3 div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exomath3 div.math3s4{
+	padding-left: 480px;
+}
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.math3s1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1math3{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#242323;
+    
+}
+section.s1math3 h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1math3 h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1math3 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1math3 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #9898A1;
+}
+section.s1math3 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1math3 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.math3s2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2math3{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#242323;
+    
+}
+section.s2math3 h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2math3 h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2math3 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2math3 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #9898A1;
+}
+section.s2math3 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2math3 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.math3s3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3math3{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#242323;
+    
+}
+section.s3math3 h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3math3 h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3math3 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3math3 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #9898A1;
+}
+section.s3math3 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3math3 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.math3s4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4math3{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#242323;
+    
+}
+section.s4math3 h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4math3 h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4math3 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4math3 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #9898A1;
+}
+section.s4math3 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4math3 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.s4math3 div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+/***********************************MDF**************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mdftd{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.superprof.fr/ressources/wp-content/uploads/2012/07/liquide-particule-physique.jpg)  ;
+	background-size: 1450px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #4F5C9C;
+
+}
+/* fin du header  */
+/* debutr des boites */
+section.tdmdf{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+section.tdmdf a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color:#4F5C9C;
+}
+section.tdmdf div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 15px;
+	padding-right:10px ;
+}
+section.tdmdf div.mdfs4{
+	padding-left:400px;
+	
+}
+/*****************************serie 2************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mdfs2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.superprof.fr/ressources/wp-content/uploads/2012/07/liquide-particule-physique.jpg)  ;
+	background-size: 1450px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2mdf{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#354180;
+    
+}
+section.s2mdf h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2mdf h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2mdf h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2mdf div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+      background-color: #7280C7;
+    }
+section.s2mdf div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2mdf img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**************************SERIE1************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mdfs1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.superprof.fr/ressources/wp-content/uploads/2012/07/liquide-particule-physique.jpg)  ;
+	background-size: 1450px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1mdf{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#354180;
+    
+}
+section.s1mdf h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1mdf h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1mdf h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1mdf div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+      background-color: #7280C7;
+    }
+section.s1mdf div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1mdf img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/***************************SERIE 3**********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mdfs3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.superprof.fr/ressources/wp-content/uploads/2012/07/liquide-particule-physique.jpg)  ;
+	background-size: 1450px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3mdf{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#354180;
+    
+}
+section.s3mdf h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3mdf h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3mdf h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3mdf div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+      background-color: #7280C7;
+    }
+section.s3mdf div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3mdf img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************chapitre 4**********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mdfs4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.superprof.fr/ressources/wp-content/uploads/2012/07/liquide-particule-physique.jpg)  ;
+	background-size: 1450px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4mdf{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#354180;
+    
+}
+section.s4mdf h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4mdf h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4mdf h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4mdf div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+      background-color: #7280C7;
+    }
+section.s4mdf div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4mdf img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/***************************************rdm***********************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.rdmexo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.ensta-bretagne.fr/sites/default/files/2018-09/4_2_2retd.jpg)  ;
+	background-size: 1450px 1000px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+section.exordm{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+section.exordm a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:#64BD56;
+}
+section.exordm div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exordm div.rdms4{
+	padding-left: 625px;
+}
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.rdms1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.ensta-bretagne.fr/sites/default/files/2018-09/4_2_2retd.jpg)  ;
+	background-size: 1450px 1000px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1rdm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#64BD56;
+    
+}
+section.s1rdm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1rdm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1rdm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1rdm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color:#2C6F21;
+}
+section.s1rdm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1rdm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.rdms2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.ensta-bretagne.fr/sites/default/files/2018-09/4_2_2retd.jpg)  ;
+	background-size: 1450px 1000px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2rdm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#64BD56;
+    
+}
+section.s2rdm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2rdm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2rdm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2rdm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #2C6F21;
+}
+section.s2rdm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2rdm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.rdms3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.ensta-bretagne.fr/sites/default/files/2018-09/4_2_2retd.jpg)  ;
+	background-size: 1450px 1000px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3rdm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#64BD56;
+    
+}
+section.s3rdm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3rdm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3rdm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3rdm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #2C6F21;
+}
+section.s3rdm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3rdm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.rdms4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.ensta-bretagne.fr/sites/default/files/2018-09/4_2_2retd.jpg)  ;
+	background-size: 1450px 1000px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4rdm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#64BD56;
+    
+}
+section.s4rdm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4rdm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4rdm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4rdm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #2C6F21;
+}
+section.s4rdm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4rdm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.s4rdm div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+/***************************************mecarat***********************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mecaratexo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.gezim.fr/wp-content/uploads/2017/05/mecanique.jpg)  ;
+ background-size: 1450px 850px;	
+ padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+section.exomecarat{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+section.exomecarat a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:#45445A;
+}
+section.exomecarat div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exomecarat div.math3s4{
+	padding-left: 480px;
+}
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mecarats1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.gezim.fr/wp-content/uploads/2017/05/mecanique.jpg)  ;
+ background-size: 1450px 850px;	
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1mecarat{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#616084;
+    
+}
+section.s1mecarat h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1mecarat h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1mecarat h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1math3 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #45445A;
+}
+section.s1mecarat div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1mecarat img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mecarats2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.gezim.fr/wp-content/uploads/2017/05/mecanique.jpg)  ;
+ background-size: 1450px 850px;	
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2mecarat{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#616084;
+    
+}
+section.s2mecarat h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2mecarat h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2mecarat h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2mecarat div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #45445A;
+}
+section.s2mecarat div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2mecarat img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mecarats3{
+	font-family: 'Fredoka', sans-serif;
+	background:url(https://www.gezim.fr/wp-content/uploads/2017/05/mecanique.jpg)  ;
+ background-size: 1450px 850px;	
+
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3mecarat{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#616084;
+    
+}
+section.s3mecarat h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3mecarat h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3mecarat h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3mecarat div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #45445A;
+}
+section.s3mecarat div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3mecarat img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mecarats4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.gezim.fr/wp-content/uploads/2017/05/mecanique.jpg)  ;
+ background-size: 1450px 850px;	
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4mecarat{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s4mecarat h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4mecarat h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4mecarat h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4mecarat div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s4mecarat div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4mecarat img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.s4mecarat div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+/***************************************probastat***********************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.probastatexo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(http://img.over-blog-kiwi.com/2/49/57/72/20171130/ob_0baedb_industrie-stats.jpg)  ;
+background-size: 1450px 950px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+section.exoprobastat{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+section.exoprobastat a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color:#BD3333;
+}
+section.exoprobastat div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exoprobastat div.probastats4{
+	padding-left: 480px;
+}
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.probastats1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(http://img.over-blog-kiwi.com/2/49/57/72/20171130/ob_0baedb_industrie-stats.jpg)  ;
+background-size: 1450px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1probastat{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color: #D25C5C;
+    
+}
+section.s1probastat h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1probastat h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1probastat h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1probastat div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #BD3333;
+}
+section.s1probastat div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1probastat img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.probastats2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(http://img.over-blog-kiwi.com/2/49/57/72/20171130/ob_0baedb_industrie-stats.jpg)  ;
+background-size: 1450px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2probastat{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#D25C5C;
+    
+}
+section.s2probastat h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2probastat h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2probastat h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2probastat div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #BD3333;
+}
+section.s2probastat div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2probastat img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.probastats3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(http://img.over-blog-kiwi.com/2/49/57/72/20171130/ob_0baedb_industrie-stats.jpg)  ;
+background-size: 1450px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3probastat{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#D25C5C;
+    
+}
+section.s3probastat h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3probastat   h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3probastat h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3probastat div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #BD3333;
+}
+section.s3probastat div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3probastat img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.probastats4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(http://img.over-blog-kiwi.com/2/49/57/72/20171130/ob_0baedb_industrie-stats.jpg)  ;
+background-size: 1450px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4probastat{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s4probastat h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4probastat h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4probastat h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4probastat div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s4probastat div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4probastat img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.s4mprobastat div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+/***************************************tech de base***********************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.techexo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://www.holmatro.com/sites/default/files/inline-images/Applications_foundry.jpg);
+	background-size: 1450px 1000px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+
+
+section.exotech a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:#B34108;
+}
+section.exotech div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exotech div.techs4{
+	padding-left: 480px;
+}
+section.exotech{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#BD7653;
+    
+}
+section.exotech h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.exotech h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.exotech h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.exotech div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #B34108;
+}
+section.exotech div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.exotech img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.techs1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+		background: url(https://www.holmatro.com/sites/default/files/inline-images/Applications_foundry.jpg);
+	background-size: 1450px 1000px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1tech{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#BD7653;
+    
+}
+section.s1tech h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1tech h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1tech h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1tech div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #B34108;
+}
+section.s1math3 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1tech img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.techs2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://www.holmatro.com/sites/default/files/inline-images/Applications_foundry.jpg);
+	background-size: 1450px 1000px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2tech{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#BD7653;
+    
+}
+section.s2tech h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2tech h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2tech h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2tech div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #B34108;
+}
+section.s2tech div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2tech img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.techs3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+		background: url(https://www.holmatro.com/sites/default/files/inline-images/Applications_foundry.jpg);
+	background-size: 1450px 1000px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3tech{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#BD7653;
+    
+}
+section.s3tech h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3tech h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3tech h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3tech div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #B34108;
+}
+section.s3tech div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3tech img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.techs4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://img.lovepik.com/photo/50065/3775.jpg_wh860.jpg);
+	background-size: 1450px 1000px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4tech{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s4tech h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4tech h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4tech h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4tech div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s4tech div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4tech img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.s4tech div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+/***************************************metrologie**********************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.metrologieexo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://st2.depositphotos.com/1756291/9411/i/450/depositphotos_94113080-stock-photo-bearing-and-caliper-on-the.jpg);
+	background-size: 1450px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+
+
+section.exometrologie a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:#312F35;
+}
+section.exometrologie div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exometrologie div.math3s4{
+	padding-left: 480px;
+}
+section.exometrologie{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#787384;
+    
+}
+section.exometrologie h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.exometrologie h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.exometrologie h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.exometrologie div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #312F35;
+}
+section.exometrologie div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.exometrologie img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+section.exometrologie div.s2 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 100px;
+
+}
+
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.metrologies1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://st2.depositphotos.com/1756291/9411/i/450/depositphotos_94113080-stock-photo-bearing-and-caliper-on-the.jpg);
+	background-size: 1450px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1metrologie{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#787384;
+    
+}
+section.s1metrologie h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1metrologie h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1metrologie h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1metrologie div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #312F35;
+}
+section.s1metrologie div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1metrologie img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.metrologies2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+		background: url(https://st2.depositphotos.com/1756291/9411/i/450/depositphotos_94113080-stock-photo-bearing-and-caliper-on-the.jpg);
+	background-size: 1450px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2metrologie{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#787384;
+    
+}
+section.s2metrologie h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2metrologie h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2metrologie h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2metrologie div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #312F35;
+}
+section.s2metrologie div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2metrologie img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.metrologies3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://st2.depositphotos.com/1756291/9411/i/450/depositphotos_94113080-stock-photo-bearing-and-caliper-on-the.jpg);
+	background-size: 1450px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3metrologie{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#787384;
+    
+}
+section.s3metrologie h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3metrologie h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3metrologie h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3metrologie div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #312F35;
+}
+section.s3metrologie div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3metrologie img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.metrologies4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://www.feecs-usinage.fr/wp-content/uploads/2019/images_formations/01BM01.jpg);
+	background-size: 1450px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4metrologie{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s4metrologie h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4metrologie h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4metrologie h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4metrologie div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s4metrologie div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4metrologie img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.s4metrologie div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+/***************************************thermo**********************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.thermoexo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://img.directindustry.fr/images_di/photo-g/213571-14777161.webp);
+	background-size: 1450px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+section.exothermo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+section.exothermo a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:;
+}
+section.exothermo div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exothermo div.math3s4{
+	padding-left: 480px;
+}
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.thermos1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://img.directindustry.fr/images_di/photo-g/213571-14777161.webp);
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1thermo{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s1thermo h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1thermo h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1thermo h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1thermo div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s1thermo div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1thermo img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.thermos2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://img.directindustry.fr/images_di/photo-g/213571-14777161.webp);
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2thermo{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s2thermo h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2thermo h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2thermo h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2thermo div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s2thermo div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2thermo img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.thermos3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://img.directindustry.fr/images_di/photo-g/213571-14777161.webp);
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3thermo{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s3thermo h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3thermo h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3thermo h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3thermo div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s3thermo div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3thermo img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.thermos4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://img.directindustry.fr/images_di/photo-g/213571-14777161.webp);
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4thermo{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s4thermo h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4thermo h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4thermo h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4thermo div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s4thermo div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4thermo img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.s4thermo div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+/***************************************mna***********************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mnaexo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/3/5/a/35a92fd622_50166485_code-binaire.jpg);
+	background-size: 1350px 950px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+section.exomna{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+section.exomna a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:;
+}
+section.exomna div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exomna div.mnas4{
+	padding-left: 480px;
+}
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mnas1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/3/5/a/35a92fd622_50166485_code-binaire.jpg);
+	background-size: 1350px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1mna{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s1mna h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1mna h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1mna h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1mna div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s1mna div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1mna img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mnas2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/3/5/a/35a92fd622_50166485_code-binaire.jpg);
+	background-size: 1350px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2mna{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s2mna h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2mna h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2mna h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2mna div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s2mna div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2mna img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mnas3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/3/5/a/35a92fd622_50166485_code-binaire.jpg);
+	background-size: 1350px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3mna{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s3mna h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3mna h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3mna h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3mna div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s3mna div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3mna img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mnas4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/3/5/a/35a92fd622_50166485_code-binaire.jpg);
+	background-size: 1350px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4mna{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s4mna h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4mna h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4mna h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4mna div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s4mna div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4mna img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.s4mna div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+/***************************************vom***********************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.vomexo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background: url(https://www.tuningblog.eu/wp-content/uploads/2019/09/Verst%C3%A4rkungsfedern-Zusatzfedern-Tuning-6.jpg);
+		background-size: 1350px 950px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+section.exovom{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+section.exovom a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:;
+}
+section.exovom div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exovom div.voms4{
+	padding-left: 480px;
+}
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.voms1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background: url(https://www.tuningblog.eu/wp-content/uploads/2019/09/Verst%C3%A4rkungsfedern-Zusatzfedern-Tuning-6.jpg);
+		background-size: 1350px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1vom{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s1vom h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1vom h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1vom h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1vom div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s1vom div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1vom img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.voms2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background: url(https://www.tuningblog.eu/wp-content/uploads/2019/09/Verst%C3%A4rkungsfedern-Zusatzfedern-Tuning-6.jpg);
+		background-size: 1350px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2vom{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s2vom h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2vom h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2vom h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2vom div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s2vom div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2vom img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.voms3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background: url(https://www.tuningblog.eu/wp-content/uploads/2019/09/Verst%C3%A4rkungsfedern-Zusatzfedern-Tuning-6.jpg);
+		background-size: 1350px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3vom{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s3vom h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3vom h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3vom h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3vom div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s3vom div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3vom img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.voms4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background: url(https://www.tuningblog.eu/wp-content/uploads/2019/09/Verst%C3%A4rkungsfedern-Zusatzfedern-Tuning-6.jpg);
+		background-size: 1350px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4vom{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s4vom h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4vom h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4vom h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4vom div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s4vom div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4math3 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.s4vom div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+/***************************************sdm***********************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.sdmexo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/a/8/8/a8888d4036_50186178_materiau-leger-resistant.jpg)
+;	background-size: 1350px 950px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+section.exosdm{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+section.exosdm a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:;
+}
+section.exosdm div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exosdm div.sdms4{
+	padding-left: 480px;
+}
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.sdms1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/a/8/8/a8888d4036_50186178_materiau-leger-resistant.jpg)
+;	background-size: 1350px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1sdm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s1sdm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1sdm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1sdm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1sdm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s1sdm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1sdm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.sdms2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/a/8/8/a8888d4036_50186178_materiau-leger-resistant.jpg)
+;	background-size: 1350px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2sdm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s2sdm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2sdm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2sdm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2sdm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s2sdm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2sdm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.sdms3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/a/8/8/a8888d4036_50186178_materiau-leger-resistant.jpg)
+;	background-size: 1350px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3sdm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s3sdm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3sdm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3sdm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3sdm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s3sdm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3sdm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.sdms4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/a/8/8/a8888d4036_50186178_materiau-leger-resistant.jpg)
+;	background-size: 1350px 950px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4sdm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s4sdm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4sdm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4sdm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4sdm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s4sdm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4sdm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.s4sdm div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+/***************************************tec***********************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.tec exo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.learning-mind.com/wp-content/uploads/2015/07/Communication-Through-Words-and-Actions.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+section.exotec{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+section.exotec a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:;
+}
+section.exotec div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exotec div.tecs4{
+	padding-left: 480px;
+}
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.tecs1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.learning-mind.com/wp-content/uploads/2015/07/Communication-Through-Words-and-Actions.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1tec{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s1tec h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1tec h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1tec h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1tec div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s1tec div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1tec img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.tecs2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.learning-mind.com/wp-content/uploads/2015/07/Communication-Through-Words-and-Actions.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2math3{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s2tec h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2tec h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2tec h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2tec div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s2tec div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2tec img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.tecs3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.learning-mind.com/wp-content/uploads/2015/07/Communication-Through-Words-and-Actions.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3tec{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s3tec h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3tec h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3tec h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3tec div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s3tec div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3tec img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.tecs4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.learning-mind.com/wp-content/uploads/2015/07/Communication-Through-Words-and-Actions.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4tec{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s4tec h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4tec h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4tec h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4tec div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s4tec div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4tec img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.s4tec div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+/***************************************elt***********************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.eltexo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.megabuche.net/wp-content/uploads/2020/07/electricite-industrielle-besancon.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+section.exoelt{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+section.exoelt a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:;
+}
+section.exoelt div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exoelt div.math3s4{
+	padding-left: 480px;
+}
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.elts1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.megabuche.net/wp-content/uploads/2020/07/electricite-industrielle-besancon.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1elt{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s1elt h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1elt h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1elt h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1elt div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s1elt div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1elt img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.elts2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.megabuche.net/wp-content/uploads/2020/07/electricite-industrielle-besancon.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2elt{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s2elt h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2elt h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2elt h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2elt div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s2elt div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2elt img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.elts3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.megabuche.net/wp-content/uploads/2020/07/electricite-industrielle-besancon.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3elt{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s3elt h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3elt h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3elt h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3elt div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s3elt div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3elt img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.elts4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.megabuche.net/wp-content/uploads/2020/07/electricite-industrielle-besancon.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4elt{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s4elt h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4elt h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4elt h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4elt div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s4elt div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4elt img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.elts4  div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+/***************************************fm***********************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.fmexo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.corail-technologie.com/wp-content/uploads/2019/09/Mechanische-Fertigung.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+section.exofm{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+section.exofm a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:;
+}
+section.exofm div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exofm div.math3s4{
+	padding-left: 480px;
+}
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.fms1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.corail-technologie.com/wp-content/uploads/2019/09/Mechanische-Fertigung.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1fm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s1fm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1fm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1math3 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1fm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s1fm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1fm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.fms2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.corail-technologie.com/wp-content/uploads/2019/09/Mechanische-Fertigung.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2fm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s2fm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2fm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2fm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2fm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s2fm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2fm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.fms3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.corail-technologie.com/wp-content/uploads/2019/09/Mechanische-Fertigung.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3fm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s3fm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3fm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3fm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3fm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s3fm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3fm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.fms4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.corail-technologie.com/wp-content/uploads/2019/09/Mechanische-Fertigung.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4fm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s4fm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4fm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4fm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4fm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s4fm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4fm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.s4fm div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+/***************************************math4***********************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.math4exo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+section.exomath4{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+section.exomath4 a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:;
+}
+section.exomath4 div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exomath4 div.math4s4{
+	padding-left: 480px;
+}
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.math4s1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1math4{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s1math4 h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1math4 h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1math4 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1math4 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s1math4 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1math4 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.math4s2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2math4{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s2math4 h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2math4 h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2math4 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2math4 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s2math4 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2math4 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.math4s3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3math4{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s3math4 h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3math4 h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3math4 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3math4 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s3math4 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3math4 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.math4s4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; 
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4math4{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s4math4 h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4math4 h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4math4 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4math4 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s4math4 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4math4 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.s4math4 div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+/***************************************anglais***********************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.anglaisexo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://static3.mclcm.net/iod/images/v2/69/citytheque/localite_101_2/1200x630_100_300_000000x30x0.jpg);
+		background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */
+section.exoanglais{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+section.exoanglais a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:;
+}
+section.exoanglais div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px ;
+}
+	section.exoanglais div.math3s4{
+	padding-left: 480px;
+}
+/**********************************chap1***********************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.anglaiss1{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://static3.mclcm.net/iod/images/v2/69/citytheque/localite_101_2/1200x630_100_300_000000x30x0.jpg);
+		background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s1anglais{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s1anglais h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s1anglais h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s1anglais h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s1anglais div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s1anglais div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s1anglais img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/**********************************chapitre2*********************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.anglaiss2{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://static3.mclcm.net/iod/images/v2/69/citytheque/localite_101_2/1200x630_100_300_000000x30x0.jpg);
+		background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s2anglais{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s2anglais h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s2anglais h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s2anglais h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s2anglais div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s2anglais div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s2anglais img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/*******************************************CHAPITRE3************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.anglaiss3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://static3.mclcm.net/iod/images/v2/69/citytheque/localite_101_2/1200x630_100_300_000000x30x0.jpg);
+		background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s3anglais{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s3anglais h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s3anglais h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s3anglais h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s3anglais div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s3anglais div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s3anglais img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+
+/*******************************************CHAPITRE4************************/
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.anglaiss4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://static3.mclcm.net/iod/images/v2/69/citytheque/localite_101_2/1200x630_100_300_000000x30x0.jpg);
+		background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+section.s4anglais{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#;
+    
+}
+section.s4anglais h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.s4anglais h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.s4anglais h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.s4anglais div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #;
+}
+section.s4anglais div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.s4anglais img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 150px;
+
+}
+section.s4anglais div.sol1 img{
+	border-image: solide;
+	border-radius: 30px;
+	size:100px  50px;
+	margin-left: 5px;
+
+}
+header h1{
+ text-shadow: 4px 4px 10px black;
+}

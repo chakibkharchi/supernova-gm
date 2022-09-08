@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>math3ch2</title>
+	<link rel="stylesheet" type="text/css" href="stylecours.css">
+</head>
+<body class="math3chap2">
+	<nav>
+	<div class="onglet">
+	<ul>
+		<li class="acceuil">
+		 <a href="math3.html">
+			acceuil 
+		 </a>
+		</li>
+
+
+	</ul>
+	
+	</div>
+
+</nav>
+<header>
+	<h1>
+		CHAPITRE2 : LES SERIE ENTIERE  
+	</h1>
+</header>
+<section class="chap2math3">
+	<h3>
+		GENERALITE
+	</h3>
+	<div>
+		<h4>
+			Definition
+		</h4>
+		<p>
+			on appelle une serie entiere toute serie Σfn dont le terme generale est de la forme :  <img alt="oups!!" src="img\eqt10.jpg">ou (an) designe une suite reel et x ∈ R
+		</p>
+</div>
+		<p>
+			une serie entiere est notée  <img alt="oups!!" src="img\eqt12.jpg">
+		</p>
+		<p>
+			comme pour les serie de fonction on cherche le domaine de convergence 
+		</p>
+		<p>
+			si la serie  <img alt="oups!!" src="img\eqt12.jpg"> est convergente sur un domaine D cela permet de definir une fonction  <img alt="oups!!" src="img\eqt10.jpg"> sur D a valeur dans R
+		</p>
+		<h5>
+			Example 1
+		</h5>
+		<img alt="oups!!" src="img\example12.jpg">
+		<h5>
+			Example 2
+		</h5>
+		<img alt="oups!!" src="img\example13.jpg">
+	<h3>
+		1 / RAYON DE CONVERGENCE 
+	</h3>
+	<h4>
+		1.1 / EXISTANCE DU RAYON DE CONVERGENCE 
+	</h4>
+	<div>
+		<p>
+			pour les serie entiere la notion de convergence prend une forme assez simple 
+		</p>
+		<h5>
+			Théorème 
+		</h5>
+		<p>
+			soit <img alt="oups!!" src="img\eqt12.jpg"> une serie entiere alors il existe un unique reel R > 0 (eventuellement infini) tel que 
+		</p>
+		<p>
+			<img alt="oups!!" src="img\eqt12.jpg"> converge absolument dans ]-R , +R[
+		</p>
+		<p>
+			<img alt="oups!!" src="img\eqt12.jpg"> diverge si |x| > R
+		</p>
+		
+		</div>
+		<div>
+
+		<p>
+		
+		</p>
+		<p>
+			le rayon de convergence d'une serie <img alt="oups!!" src="img\eqt12.jpg"> est caracterise par :
+
+		</p>
+		<p>
+			|x| < R ----> la serie est absolument convergente 
+		</p>
+		<p>
+			|x| > R ----> la serie diverge 
+		</p>
+		<p>
+			|x| = R ----> est le cas douteux ou on ne peut rien dire sur la nature 
+		</p>
+		<p>
+		 R > r >|x| , pour r > 0 la serie est normalement convergente     
+		</p>
+	</div>
+	<h4>
+		1.2 CALCUL DU RAYON DE CONVERGENCE 
+	</h4>
+	<div>
+		<h5>
+			Proposition (Lemme d'Hadamard)
+		</h5>
+		<p>
+			soit <img alt="oups!!" src="img\eqt12.jpg">  une serie entiere le rayon de convergence R est donné par la relation : 
+		</p>
+		<p>
+			
+		</p>
+		<img alt="oups!!" src="img\eqt11.jpg">
+	</div>
+	<h5>
+		Example 
+	</h5>	
+	<img alt="oups!!" src="img\example14.jpg">
+<h3>
+	2 / PROPRIETE DES SERIE ENTIERE 
+</h3>
+<h4>
+	2.1 / CONTINUITE
+</h4>
+<div>
+	<h5> Proposition</h5>
+	<p>
+		soit <img alt="oups!!" src="img\eqt12.jpg">  une serie entiere le rayon de convergence R et soit f sa somme qui est definis par <img alt="oups!!" src="img\eqt10.jpg"> sur ]-R , R[ la fonction f est alors continue
+	</p>
+</div>
+<h5>
+		Example 
+	</h5>	
+	<img alt="oups!!" src="img\example15.jpg">
+<h4>
+	2.2 / DERIVATION
+</h4>
+<div>
+	<h5>
+		Proposition
+	</h5>
+	<p>
+		soit <img alt="oups!!" src="img\eqt12.jpg">  une serie entiere le rayon de convergence R et soit f la fonction definis sur ]-R , R[ par  <img alt="oups!!" src="img\eqt10.jpg"> alors f est derivable et sa derive s'obtient en derivant terme a terme : 
+
+	</p>
+	<img alt="oups!!" src="img\eqt13.jpg">
+</div>
+<div>
+	<h5>
+		Definition
+	</h5>
+	<p>
+		la serie <img alt="oups!!" src="img\eqt13.jpg"> est appelée serie entiere derivée de la serie <img alt="oups!!" src="img\eqt10.jpg">
+	</p>
+</div>
+<h5>
+		Example 
+	</h5>	
+	<img alt="oups!!" src="img\example16.jpg">
+<h4>
+	2.2 / INTEGRATION 
+</h4>
+<div>
+	<h5>
+		Proposition
+	</h5>
+	<p>
+		soit <img alt="oups!!" src="img\eqt12.jpg">  une serie entiere le rayon de convergence R et soit f la fonction definis sur ]-R , R[ par  <img alt="oups!!" src="img\eqt10.jpg"> alors pour tout intervalle [0 , x]  appartient a ]-R , R[ on peut calculer <img alt="oups!!" src="img\eqt14.jpg"> en integrant terme a terme :
+	</p>
+	<img alt="oups!!" src="img\eqt15.jpg">
+	<p>
+		la serie entiere 	<img alt="oups!!" src="img\eqt16.jpg"> est de rayon de convergence R qu'est aussi une primitive de f s'annulant en 0
+	</p>
+</div>
+<h5>
+		Example 
+	</h5>	
+	<img alt="oups!!" src="img\example17.jpg">
+<h3>
+	3 / FONCTION DEVELOPPABLE EN SERIE ENTIERES
+</h3>
+<div>
+	<h5>
+		Proposition
+	</h5>
+	<p>
+		pour qu'une fonction f soit developpable en serie entiere en voisinage d'un point X ∈ R il est necessaire qu'lle soit de classe <img alt="oups!!" src="img\eqt17.jpg"> dans un voisinage ]X-ε ; X+ε[ de X et dans ce cas on a :<img alt="oups!!" src="img\eqt18.jpg">
+
+	</p>
+</div>
+<h5>
+		Example 
+	</h5>	
+	<img alt="oups!!" src="img\example18.jpg">
+	<h4>
+		3.1 / SERIE DE TAYLOR
+	</h4>
+	<div>
+		<h5>
+			Definition 
+		</h5>
+		<p>
+			on appelle une serie de taylor d'une fonction f de classe <img alt="oups!!" src="img\eqt17.jpg"> la serie entiere 
+		</p>
+		<img alt="oups!!" src="img\eqt19.jpg">
+	</div>
+	<h5>
+		Example 
+	</h5>	
+	<img alt="oups!!" src="img\example19.jpg">
+</section>

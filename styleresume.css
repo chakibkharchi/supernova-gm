@@ -1,0 +1,2528 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+header h1{
+ text-shadow: 4px 4px 10px black;
+}
+section h2{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 42px;
+padding-left: 240px;
+}
+/*******************************MATH3******************************************/
+body.math3resume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.math3resume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumemath3{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#242323;
+    
+}
+section.resumemath3 h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumemath3 h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumemath3 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumemath3 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #9898A1;
+}
+section.resumemath3 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumemath3 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumemath3 iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/***************************MDF**********************************/
+
+body.mdfresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.superprof.fr/ressources/wp-content/uploads/2012/07/liquide-particule-physique.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.mdfresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.superprof.fr/ressources/wp-content/uploads/2012/07/liquide-particule-physique.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumemdf{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#354180;
+    
+    
+}
+section.resumemdf h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumemdf h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumemdf h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumemdf div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color: #7280C7;
+}}
+section.resumemdf div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumemdf img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumemdf iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/**********************************rdm**************************************/
+body.rdmresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background: url(https://www.ensta-bretagne.fr/sites/default/files/2018-09/4_2_2retd.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.rdmresume {
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.ensta-bretagne.fr/sites/default/files/2018-09/4_2_2retd.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumerdm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#64BD56;
+    
+    
+}
+section.resumerdm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumerdm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumerdm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumerdm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color:#2C6F21 ;
+}}
+section.resumerdm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumerdm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumerdm iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/**********************************mecarat*******************************************/
+body.mecaratresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.gezim.fr/wp-content/uploads/2017/05/mecanique.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.mecaratresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.gezim.fr/wp-content/uploads/2017/05/mecanique.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumemecarat{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#616084;
+    
+    
+}
+section.resumemecarat h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumemecarat h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumemecarat h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumemecarat div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color:#45445A ;
+}}
+section.resumemecarat div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumemecarat img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumemecarat iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/****************************probastat*****************************************/
+body.probastatresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(http://img.over-blog-kiwi.com/2/49/57/72/20171130/ob_0baedb_industrie-stats.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.probastatresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(http://img.over-blog-kiwi.com/2/49/57/72/20171130/ob_0baedb_industrie-stats.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumeprobastat{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#D25C5C;
+    
+    
+}
+section.resumeprobastat h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumeprobastat h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumeprobastat h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumeprobastat div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color: #BD3333 ;
+}}
+section.resumeprobastat div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumeprobastat img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumeprobastat iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/************************************tech de base********************************/
+body.techresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://img.lovepik.com/photo/50065/3775.jpg_wh860.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.techresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://img.lovepik.com/photo/50065/3775.jpg_wh860.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumetech{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#BD7653;
+    
+    
+}
+section.resumetech h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumetech h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumetech h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumetech div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color:#B34108  ;
+}}
+section.resumetech div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumetech img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumetech iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/**************************metrologie************************/
+body.metrologieresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.feecs-usinage.fr/wp-content/uploads/2019/images_formations/01BM01.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+	padding-right: 15px;
+padding-left: 15px;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+
+
+section.resumemetrologie{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#787384;
+    
+    
+}
+section.resumemetrologie h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumemetrologie h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumemetrologie h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumemetrologie div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color:#312F35 ;
+}}
+section.resumemetrologie div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumemetrologie img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left:10px;
+
+}
+section.resumemetrologie div img.ch{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 100px;
+
+}
+section.resumemetrologie iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/************************thermo***********************************************/
+body.thermoresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://img.directindustry.fr/images_di/photo-g/213571-14777161.webp)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.thermoresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url()  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumethermo{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+    
+}
+section.resumethermo h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumethermo h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumethermo h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumethermo div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color: ;
+}}
+section.resumethermo div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumethermo img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumethermo iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/***************************************mna*****************************************/
+body.mnaresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/3/5/a/35a92fd622_50166485_code-binaire.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.mnaresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/3/5/a/35a92fd622_50166485_code-binaire.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumemna{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+    
+}
+section.resumemna h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumemna h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumemna h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumemna div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color: ;
+}}
+section.resumemna div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumemna img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumemna iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/***************************************vom********************************/
+body.vomresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.tuningblog.eu/wp-content/uploads/2019/09/Verst%C3%A4rkungsfedern-Zusatzfedern-Tuning-6.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.vomresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.tuningblog.eu/wp-content/uploads/2019/09/Verst%C3%A4rkungsfedern-Zusatzfedern-Tuning-6.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumevom{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+    
+}
+section.resumevom h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumevom h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumevom h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumevom div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color: ;
+}}
+section.resumevom div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumevom img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumevom iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/**************************************sdm****************************************/
+body.sdmresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/a/8/8/a8888d4036_50186178_materiau-leger-resistant.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.rsdmresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/a/8/8/a8888d4036_50186178_materiau-leger-resistant.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumesdm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+    
+}
+section.resumesdm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumesdm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumesdm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumesdm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color: ;
+}}
+section.resumesdm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumesdm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumesdm iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/***********************************tec*******************************/
+body.tecresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.learning-mind.com/wp-content/uploads/2015/07/Communication-Through-Words-and-Actions.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.tecresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.learning-mind.com/wp-content/uploads/2015/07/Communication-Through-Words-and-Actions.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumetec{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+    
+}
+section.resumetec h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumetec h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumetec h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumetec div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color: ;
+}}
+section.resumetec div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumetec img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumetec iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/*****************************elt***********************************/
+body.eltresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.megabuche.net/wp-content/uploads/2020/07/electricite-industrielle-besancon.jpghttps://www.megabuche.net/wp-content/uploads/2020/07/electricite-industrielle-besancon.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.eltresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.megabuche.net/wp-content/uploads/2020/07/electricite-industrielle-besancon.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumeelt{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+    
+}
+section.resumeelt h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumeelt h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumeelt h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumeelt div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color: ;
+}}
+section.resumeelt div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumeelt img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumeelt iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/***********************************fm************************************/
+body.fmresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.corail-technologie.com/wp-content/uploads/2019/09/Mechanische-Fertigung.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.fmresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.corail-technologie.com/wp-content/uploads/2019/09/Mechanische-Fertigung.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumefm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+    
+}
+section.resumefm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumefm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumefm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumefm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color: ;
+}}
+section.resumefm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumefm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumefm iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/***********************************math4***********************/
+body.math4resume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+		background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.math4resume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumemath4{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+    
+}
+section.resumemath4 h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumemath4 h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumemath4 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumemath4 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color: ;
+}}
+section.resumemath4 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumemath4 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumemath4 iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/***************************anglais***********************************/
+body.anglaisresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://static3.mclcm.net/iod/images/v2/69/citytheque/localite_101_2/1200x630_100_300_000000x30x0.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.anglaisresume{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://static3.mclcm.net/iod/images/v2/69/citytheque/localite_101_2/1200x630_100_300_000000x30x0.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.resumeanglais{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+    
+}
+section.resumeanglais h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.resumeanglais h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.resumeanglais h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.resumeanglais div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+     background-color: ;
+}}
+section.resumeanglais div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.resumeanglais img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.resumeanglais iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}

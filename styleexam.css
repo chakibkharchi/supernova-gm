@@ -1,0 +1,2499 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+section img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.math3exo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.math3exam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.exammath3{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#242323;
+    
+}
+section.exammath3 h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.exammath3 h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.exammath3 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.exammath3 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #9898A1;
+}
+section.exammath3 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.exammath3 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+margin-left: 120px;
+
+}
+/**************************mdf************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mdfexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.superprof.fr/ressources/wp-content/uploads/2012/07/liquide-particule-physique.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mdfexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.superprof.fr/ressources/wp-content/uploads/2012/07/liquide-particule-physique.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.exammdf{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#354180;
+    
+}
+section.exammdf h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.exammdf h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.exammdf h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.exammdf div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color: #7280C7;
+}
+section.exammdf div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.exammdf img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 120px;
+
+}
+/************************rdm************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.rdmexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.ensta-bretagne.fr/sites/default/files/2018-09/4_2_2retd.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;   text-shadow: 4px 4px 10px black;
+}
+
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.rdmexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.ensta-bretagne.fr/sites/default/files/2018-09/4_2_2retd.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.examrdm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#64BD56;
+    
+}
+section.examrdm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.examrdm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.examrdm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.examrdm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color:#2C6F21 ;
+}
+section.examrdm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.examrdm div img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 200px;
+
+}
+/************************mecarat************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mecaratexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.gezim.fr/wp-content/uploads/2017/05/mecanique.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;	
+
+padding-right: 15px;
+padding-left: 15px;
+}
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+
+
+
+section.exammecarat{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#616084;
+    
+}
+section.exammecarat h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.exammecarat h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.exammecarat h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.exammecarat div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color:#45445A ;
+}
+section.exammecarat div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.exammecarat img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 120px;
+
+}
+/************************probastat************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.probastatexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(http://img.over-blog-kiwi.com/2/49/57/72/20171130/ob_0baedb_industrie-stats.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+	padding-right: 15px;
+padding-left: 15px;
+
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+
+
+
+section.examprobastat{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#D25C5C;
+    
+}
+section.examprobastat h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.examprobastat h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.examprobastat h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.examprobastat div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color:#BD3333 ;
+}
+section.examprobastat div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.examprobastat img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+margin-left: 120px;
+
+}
+/************************tech de base************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.techexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.holmatro.com/sites/default/files/inline-images/Applications_foundry.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;padding-right: 15px;
+padding-left: 15px;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+
+
+section.examtech{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#BD7653;
+    
+}
+section.examtech h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.examtech h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.examtech h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.examtech div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color:#B34108 ;
+}
+section.exammdf div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.examtech img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+margin-left: 120px;
+
+}
+/************************metrologie************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.metrologieexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.feecs-usinage.fr/wp-content/uploads/2019/images_formations/01BM01.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;padding-right: 15px;
+padding-left: 15px;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+ text-shadow: 4px 4px 10px black;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+
+
+section.exammetrologie{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#787384;
+    
+}
+section.exammetrologie h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.exammetrologie h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.exammetrologie h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.exammetrologie div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color:#312F35  ;
+}
+section.exammetrologie div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.exammetrologie img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+margin-left: 120px;
+
+}
+/************************thermo************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.thermoexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://img.directindustry.fr/images_di/photo-g/213571-14777161.webp)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.thermoexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://img.directindustry.fr/images_di/photo-g/213571-14777161.webp)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.examthermo{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+}
+section.examthermo h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.examthermo h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.examthermo h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.examthermo div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color: ;
+}
+section.examthermo div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.examthermo img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 120px;
+
+}
+/************************mna************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mnaexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/3/5/a/35a92fd622_50166485_code-binaire.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.mnaexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/3/5/a/35a92fd622_50166485_code-binaire.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.exammna{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+}
+section.exammna h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.exammna h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.exammna h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.exammna div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color: ;
+}
+section.exammna div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.exammna img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+/************************vom************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.vomexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.tuningblog.eu/wp-content/uploads/2019/09/Verst%C3%A4rkungsfedern-Zusatzfedern-Tuning-6.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.vomexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.tuningblog.eu/wp-content/uploads/2019/09/Verst%C3%A4rkungsfedern-Zusatzfedern-Tuning-6.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.examvom{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+}
+section.examvom h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.examvom h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.examvom h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.examvom div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color: ;
+}
+section.examvom div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.examvom img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+/************************sdm************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.sdmexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/a/8/8/a8888d4036_50186178_materiau-leger-resistant.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.sdmexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/a/8/8/a8888d4036_50186178_materiau-leger-resistant.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.examsdm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+}
+section.examsdm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.examsdm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.examsdm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.examsdm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color: ;
+}
+section.examsdm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.examsdm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+/************************tec************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.tecexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.learning-mind.com/wp-content/uploads/2015/07/Communication-Through-Words-and-Actions.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.tecexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.learning-mind.com/wp-content/uploads/2015/07/Communication-Through-Words-and-Actions.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.examtec{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+}
+section.examtec h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.examtec h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.examtec h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.examtec div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color: ;
+}
+section.examtec div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.examtec img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+/************************elt************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.eltexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.megabuche.net/wp-content/uploads/2020/07/electricite-industrielle-besancon.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.eltexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.megabuche.net/wp-content/uploads/2020/07/electricite-industrielle-besancon.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.examelt{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+}
+section.examelt h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.examelt h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.examelt h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.examelt div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color: ;
+}
+section.examelt div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.examelt img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+/************************fm************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.fmexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.corail-technologie.com/wp-content/uploads/2019/09/Mechanische-Fertigung.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.fmexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.corail-technologie.com/wp-content/uploads/2019/09/Mechanische-Fertigung.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.examfm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+}
+section.examfm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.examfm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.examfm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.examfm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color: ;
+}
+section.examfm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.examfm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+/************************math4************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.math4exam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+  background-size: 600px 300px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.math4exam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.exammath4{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+}
+section.exammath4 h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.exammath4 h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.exammath4 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.exammath4 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color: ;
+}
+section.exammath4 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.exammath4 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+/************************anglais************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.anglaisexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://static3.mclcm.net/iod/images/v2/69/citytheque/localite_101_2/1200x630_100_300_000000x30x0.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+/* debutr des boites */body{
+	font-family: 'Fredoka', sans-serif;
+}
+body.anglaisexam{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url()  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.examanglais{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:;
+    
+}
+section.examanglais h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.examanglais h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.examanglais h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.examanglais div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+   background-color: ;
+}
+section.examanglais div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.examanglais img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+header h1{
+ text-shadow: 4px 4px 10px black;
+}

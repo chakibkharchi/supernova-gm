@@ -1,0 +1,2711 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+/*******************************MATH3******************************************/
+body.math3video{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #242323;
+
+}
+/* fin du header  */
+body.math3video{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.videomath3{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+	background-color:#242323;
+    
+}
+section.videomath3 h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videomath3 h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videomath3 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videomath3 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #9898A1;
+}
+section.videomath3 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videomath3 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videomath3 iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+/**************************MDF****************************/
+body.mdfvideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.superprof.fr/ressources/wp-content/uploads/2012/07/liquide-particule-physique.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #4F5C9C;
+}
+/* fin du header  */
+body.mdfvideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.superprof.fr/ressources/wp-content/uploads/2012/07/liquide-particule-physique.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.videomdf{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:#354180;
+    
+}
+section.videomdf h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videomdf h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videomdf h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videomdf div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #7280C7;
+}
+section.videomdf div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videomdf img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videomdf iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videomdf a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: #7280C7;
+}
+section.videomdf div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+/**************************rdm****************************/
+body.rdmvideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.superprof.fr/ressources/wp-content/uploads/2012/07/liquide-particule-physique.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #2C6F21;
+}
+/* fin du header  */
+body.rdmvideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.ensta-bretagne.fr/sites/default/files/2018-09/4_2_2retd.jpg)  ;
+	background-size: 1350px 850px;
+padding-right: 15px;
+padding-left: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+section.videordm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:#64BD56;
+    
+}
+section.videordm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videordm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videordm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videordm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color:#2C6F21 ;
+}
+section.videordm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videordm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videordm iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videordm a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color:#2C6F21 ;
+}
+section.videordm div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+/**************************mecarat****************************/
+body.mecaratvideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.gezim.fr/wp-content/uploads/2017/05/mecanique.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+
+padding-right: 15px;
+padding-left: 15px;
+	
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131     ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #BCB9C1;
+}
+/* fin du header  */
+
+
+section.videomecarat{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:#616084;
+    
+}
+section.videomecarat h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videomecarat h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videomecarat h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videomecarat div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #45445A;
+}
+section.videomecarat div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videomecarat img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videomecarat iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videomecarat a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color:#45445A ;
+}
+section.videomecarat div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+/**************************probastat****************************/
+body.probastatvideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(http://img.over-blog-kiwi.com/2/49/57/72/20171130/ob_0baedb_industrie-stats.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+
+padding-right: 15px;
+padding-left: 15px;
+	
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131     ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #2C6F21;
+}
+/* fin du header  */
+
+
+section.videoprobastat{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:#D25C5C;
+    
+}
+section.videoprobastat h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videoprobastat h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videoprobastat h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videoprobastat div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #BD3333;
+}
+section.videoprobastat div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videoprobastat img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videoprobastat iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videoprobastat a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color:#BD3333 ;
+}
+section.videoprobastat div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+/**************************tech de base****************************/
+body.techvideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.holmatro.com/sites/default/files/inline-images/Applications_foundry.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+
+padding-right: 15px;
+padding-left: 15px;
+	
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131     ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #2C6F21;
+}
+/* fin du header  */
+
+
+section.videotech{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:#BD7653;
+    
+}
+section.videotech h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videotech h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videotech h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videotech div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: #B34108;
+}
+section.videotech div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videotech img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videotech iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videotech a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: #B34108;
+}
+section.videotech div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+/**************************metrologie****************************/
+body.metrologievideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.feecs-usinage.fr/wp-content/uploads/2019/images_formations/01BM01.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+
+padding-right: 15px;
+padding-left: 15px;
+	
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131     ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #2C6F21;
+}
+/* fin du header  */
+
+
+section.videometrologie{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:#787384;
+    
+}
+section.videometrologie h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videometrologie h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videometrologie h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videometrologie div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color:#312F35 ;
+}
+section.videometrologie div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videometrologie img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videometrologie iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videometrologie a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: ;
+}
+section.videometrologie div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+/**************************thermo****************************/
+body.thermovideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://img.directindustry.fr/images_di/photo-g/213571-14777161.webp)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+
+padding-right: 15px;
+padding-left: 15px;
+	
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131     ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #2C6F21;
+}
+/* fin du header  */
+
+
+section.videothermo{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:;
+    
+}
+section.videothermo h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videothermo h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videothermo h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videothermo div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: ;
+}
+section.videothermo div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videothermo img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videothermo iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videothermo a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: ;
+}
+section.videothermo div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+/**************************mna****************************/
+body.mnavideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/3/5/a/35a92fd622_50166485_code-binaire.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+
+padding-right: 15px;
+padding-left: 15px;
+	
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131     ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #2C6F21;
+}
+/* fin du header  */
+
+
+section.videomna{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:;
+    
+}
+section.videomna h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videomna h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videomna h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videomna div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: ;
+}
+section.videomna div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videomna img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videomna iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videomna a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: ;
+}
+section.videomna div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+/**************************vom****************************/
+body.vomvideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.tuningblog.eu/wp-content/uploads/2019/09/Verst%C3%A4rkungsfedern-Zusatzfedern-Tuning-6.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+
+padding-right: 15px;
+padding-left: 15px;
+	
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131     ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #2C6F21;
+}
+/* fin du header  */
+
+
+section.videovom{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:;
+    
+}
+section.videovom h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videovom h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videovom h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videovom div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: ;
+}
+section.videovom div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videovom img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videovom iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videovom a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: ;
+}
+section.videovom div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+/**************************sdm****************************/
+body.sdmvideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/a/8/8/a8888d4036_50186178_materiau-leger-resistant.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+
+padding-right: 15px;
+padding-left: 15px;
+	
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131     ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #2C6F21;
+}
+/* fin du header  */
+
+
+section.videosdm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:;
+    
+}
+section.videosdm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videosdm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videosdm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videosdm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: ;
+}
+section.videosdm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videosdm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videosdm iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videosdm a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: ;
+}
+section.videosdm div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+/**************************tec****************************/
+body.tecvideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.learning-mind.com/wp-content/uploads/2015/07/Communication-Through-Words-and-Actions.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+
+padding-right: 15px;
+padding-left: 15px;
+	
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131     ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #2C6F21;
+}
+/* fin du header  */
+
+
+section.videotec{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:;
+    
+}
+section.videotec h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videotec h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videotec h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videotec div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: ;
+}
+section.videotec div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videotec img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videotec iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videotec a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: ;
+}
+section.videotec div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+/**************************elt****************************/
+body.eltvideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.megabuche.net/wp-content/uploads/2020/07/electricite-industrielle-besancon.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+
+padding-right: 15px;
+padding-left: 15px;
+	
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131     ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #2C6F21;
+}
+/* fin du header  */
+
+
+section.videoelt{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:;
+    
+}
+section.videoelt h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videoelt h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videoelt h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videoelt div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: ;
+}
+section.videoelt div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videoelt img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videoelt iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videoelt a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: ;
+}
+section.videoelt div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+/**************************fm****************************/
+body.fmvideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.corail-technologie.com/wp-content/uploads/2019/09/Mechanische-Fertigung.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+
+padding-right: 15px;
+padding-left: 15px;
+	
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131     ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #2C6F21;
+}
+/* fin du header  */
+
+
+section.videofm{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:;
+    
+}
+section.videofm h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videofm h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videofm h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videofm div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: ;
+}
+section.videofm div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videofm img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videofm iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videofm a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: ;
+}
+section.videofm div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+/**************************math4****************************/
+body.math4video{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+  background-size: 600px 300px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+
+padding-right: 15px;
+padding-left: 15px;
+	
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131     ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #2C6F21;
+}
+/* fin du header  */
+
+
+section.videomath4{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:;
+    
+}
+section.videomath4 h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videomath4 h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videomath4 h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videomath4 div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: ;
+}
+section.videomath4 div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videomath4 img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videomath4 iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videomath4 a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: ;
+}
+section.videomath4 div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+/**************************anglais****************************/
+body.anglaisvideo{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+background:url(https://static3.mclcm.net/iod/images/v2/69/citytheque/localite_101_2/1200x630_100_300_000000x30x0.jpg)  ;
+	background-size: 1350px 850px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+
+padding-right: 15px;
+padding-left: 15px;
+	
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131     ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+header h4{
+	text-align: center ;
+	font-size: 20px;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    text-shadow: 4px 4px 10px black;
+    border-style: inset;
+     border: 5px solid grey;
+    border-radius: 35px;
+    background-color: #2C6F21;
+}
+/* fin du header  */
+
+
+section.videoanglais{
+	padding-left: 100px;
+	padding-right:100px ;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;
+    font-size: 20px ;
+		background-color:;
+    
+}
+section.videoanglais h4{
+	padding-top: 10px ;
+  text-shadow: 6px 6px 15px black;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 35px;
+
+}
+section.videoanglais h3{
+	
+	
+text-shadow: 6px 6px 15px black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+	font-size: 30px;
+
+}
+section.videoanglais h5{
+	padding-left: 50px;
+	font-size: 25px;
+}
+section.videoanglais div{
+	padding-left: 10px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+    border: 2px solid grey;
+    border-radius: 18px;
+    background-color: ;
+}
+section.videoanglais div h5{
+	color: black;
+	text-shadow: 6px 6px 15px black;
+	
+}
+section.videoanglais img{
+	border-image: solide;
+	border-radius: 30px;
+	size: 800px 350px;
+	margin-left: 10px;
+
+}
+section.videoanglais iframe{
+		border-image: solide;
+	border-radius: 30px;
+	
+	margin-left: 180px;
+}
+section.videoanglais a{
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	
+
+    color: whitesmoke;
+    font-size: 20px ;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: ;
+}
+section.videoanglais div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:20px ;
+}
+header h4{
+	background-color:#BCB9C1;
+}
+header h1{
+ text-shadow: 4px 4px 10px black;
+}

@@ -1,0 +1,1858 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+}
+section div{
+
+		border-style: inset;
+    border: 3px solid white;
+
+    border-radius: 18px;
+}
+body.math3{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.math3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.math3 div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+		text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 3px solid white;
+
+    border-radius: 18px;
+    color: whitesmoke;
+}
+
+section.math3 div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:50px ;
+	padding-left: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.math3 div.coursmath3 {
+	background: url(https://recherche.esme.fr/wp-content/uploads/2021/11/shutterstock_145072576_ret.png);
+	background-position: center;
+
+}
+section.math3 div.exomath3 {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsYgw1AmJpdawJyFLr_Ey7u0Q8aBNt1hC7vBguCGSyVQkNKZNDmMlOexne3hvSD5E1yWs&usqp=CAU);
+	background-position: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+section.math3 div.examenmath3 {
+	background: url(https://www.businessnews.com.tn/images/album/IMGBN44591epreuve-math.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+}
+section.math3 div.videomath3 {
+	background: url(https://www.superprof.fr/ressources/wp-content/uploads/2009/09/revision-operations-calculs.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.math3 div.drivemath3 {
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.math3 div.resumemath3 {
+	background: url(https://tse3.mm.bing.net/th?id=OIP.qDDkXly68cb7vzpN4eVMGgHaFP&pid=Apihttps://tse3.mm.bing.net/th?id=OIP.qDDkXly68cb7vzpN4eVMGgHaFP&pid=Api);
+	background-position: center;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+
+
+
+
+/***************************************************************************************************************************************************************************************************************************/
+/**mecanique des fluides */
+
+
+body.mdf{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.superprof.fr/ressources/wp-content/uploads/2012/07/liquide-particule-physique.jpg)  ;
+	background-size: 1350px 850px;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+	text-shadow: 6px 6px 10px black;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.mdf{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.mdf div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+		text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 3px solid #A4AAFF;
+    border-radius: 18px;
+    color: whitesmoke;
+}
+
+section.mdf div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.mdf div.coursmdf {
+	background:url(https://3.bp.blogspot.com/-IgcCkeLDiUM/W6_RkwBII5I/AAAAAAAABag/Vw_V3NA_67wUeVw_Qn80kug0wwY3fscGwCLcBGAs/s1600/mecanique%2Bdes%2Bfluide.png);
+	background-position: center;
+	background-size: 370px 140px;
+
+}
+section.mdf div.exomdf {
+	background: url(https://www.legarrec.com/wp-content/uploads/2018/05/formule-300x147.png);
+	background-position: center;
+	background-size: 300px 100px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+section.mdf div.examenmdf {
+	background: url(https://static.lexpress.fr/medias_9799/w_1815,h_1362,c_crop,x_130,y_0/w_640,h_358,c_fill,g_center/v1444303734/etudiants-bac-examen-ecole-universite_5017539.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+}
+section.mdf div.videomdf {
+	background: url(https://www.superprof.fr/ressources/wp-content/uploads/2009/09/revision-operations-calculs.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.mdf div.drivemdf {
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.mdf div.resumemdf {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMPJdO7N0OWmlzynga--jIQ4Dks6xJcV6w4V0MbxcVCmFW0jneqak5NiDsMct3cLwOqw8&usqp=CAU);
+	background-position: center;
+	background-size: 310px 180px;
+	background-repeat: no-repeat;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+
+/***************************************************************************************************************************************************************************************************************/
+/*resistance des materiaux*/
+body.rdm{
+	background: url(https://www.ensta-bretagne.fr/sites/default/files/2018-09/4_2_2retd.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1350px 1000px;
+
+
+}
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 20px;
+	text-shadow: 6px 6px 10px black;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.rdm{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.rdm div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+		text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 3px solid white;
+    border-radius: 18px;
+    color: whitesmoke;
+}
+
+section.rdm div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+	
+
+}
+section.rdm div.coursrdm {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9p7R5IVNwkCRbdHLrpYJKfF_tpWqtKbCmKpZGs2V3g26UBSOOCeBdKEqM0QI8FXxBQP8&usqp=CAU);
+	background-position: center;
+	background-size: 280px 120px;
+
+}
+section.rdm div.exordm {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW-rw_OumZG1_segPHjP5hZ-0YFwZNcBszEnHZKvodql5Z_a8D7klPq8epIP8sElsTfuI&usqp=CAU);
+	background-position: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+section.rdm div.examenrdm {
+	background: url(https://imgs.search.brave.com/eGc69qjDXogauY9JmD8TLN1AaPt8Yor1ASax-CRRJXg/rs:fit:980:528:1/g:ce/aHR0cHM6Ly9kaWFy/aW9jb3JyZW8ucGUv/cmVzaXplci81SjZl/cl9DYjQtcl9wdnNk/a2l2RzZqTG1oVFE9/Lzk4MHg1Mjgvc21h/cnQvYXJjLWFuZ2xl/cmZpc2gtYXJjMi1w/cm9kLWVsY29tZXJj/aW8uczMuYW1hem9u/YXdzLmNvbS9wdWJs/aWMvM0FZQklKSEFP/NURGTEpYQ01ETVpI/NFNTNTQuanBn);
+	background-position: center;
+	background-size: 320px 180px;
+}
+section.rdm div.videordm {
+	background: url(https://imgs.search.brave.com/3oHLqOJQXm6pAPIhQB0369vHiaN6HYkSIpBUbmUYhzY/rs:fit:1000:450:1/g:ce/aHR0cHM6Ly9zdG9y/ZS5ocC5jb20vYXBw/L2Fzc2V0cy9pbWFn/ZXMvdXBsb2Fkcy9w/cm9kLzEwLWJlc3Qt/dmlkZW8tY29uZmVy/ZW5jZS1zb2Z0d2Fy/ZS1zb2x1dGlvbnMt/MjAyMC1oZXJvMTU4/Njc5MjM2ODc4OTY2/OC5qcGc_aW1wb2xp/Y3k9cHJkaW1nJmlt/ZGVuc2l0eT0xJmlt/d2lkdGg9MTAwMA);
+	background-size: 320px 180px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.rdm div.driverdm{
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.rdm div.resumerdm {
+	background: url(https://4.bp.blogspot.com/-7NMdZ7D_dC4/VuoB_U6up3I/AAAAAAAAH2w/i5Ka-8TNYwcderlijUURuyQac-0sG5k6w/s1600/1.PNG);
+	background-position: center;
+	background-size: 280px 150px;
+
+}
+/******************************************************************************************************************************************************************************************************/
+/* mecanique rationnelle  */
+body.mecarat{
+	background: url(https://www.gezim.fr/wp-content/uploads/2017/05/mecanique.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1350px 850px;
+
+
+}
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+	text-shadow: 6px 6px 10px black;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.mecarat{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.mecarat div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+		text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+border-style: inset;
+    border: 3px solid white;
+    border-radius: 18px;
+    color: whitesmoke;
+}
+
+section.mecarat div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.mecarat div.coursmecarat {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7s1tZ123vm3gnHIm9mC6FUxRm4wE1VZIiZw&usqp=CAU);
+	background-position: center;
+
+}
+section.mecarat div.exomecarat {
+	background: url(https://c8.alamy.com/compfr/p041rr/anglais-fleuron-de-livre-un-cours-de-mecanique-optique-hydrostatical-et-experiences-pneumatique-pour-etre-effectuer-avait-par-francis-hauksbee-et-les-notes-explicatives-des-conferences-lu-par-william-whiston-m-a-75-un-cours-de-mecanique-optique-hydrostatical-et-experiences-pneumatique-fleuron-t114558-7-p041rr.jpg);
+	background-position: center;
+	background-size: 250px 150px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+section.mecarat div.examenmecarat {
+	background: url(https://media.ooreka.fr/public/image/homme-travail-examen-main-11906427.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+}
+section.mecarat div.videomecarat {
+	background: url(https://grandes-ecoles.studyrama.com/sites/default/files/styles/espace_prepas_article/public/field/image/specialite-mecatronique-ecole-ingenieur.jpg?itok=hh3QxQoy);
+	background-size: 280px 100px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.mecarat div.drivemecarat{
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.mecarat div.resumemecarat {
+	background: url(https://images.slideplayer.fr/76/13981451/slides/slide_9.jpg);
+	background-position: center;
+	background-size: 320px 180px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+/***********************************************************************************************************************************************************/
+/* probastat */
+body.probastat{
+	background: url(http://img.over-blog-kiwi.com/2/49/57/72/20171130/ob_0baedb_industrie-stats.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1350px 950px;
+
+
+}
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+	text-shadow: 6px 6px 10px black;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.probastat{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.probastat div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+		text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+border-style: inset;
+    border: 3px solid white;
+    border-radius: 18px;
+    color: whitesmoke;
+}
+
+section.probastat div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.probastat div.coursprobastat {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmDiUMkHBwpbscJ4Zwo5V3HK7rHNjLH2JnjMIv31RgPYvSA_LtcZMnTPFr_BFAaCDaFnk&usqp=CAU);
+	background-position: center;
+
+}
+section.probastat div.exoprobastat {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6J1BtcpqqD_cbClAoCImqjMUhQSHmAaNJV-Hgi5m4z3jvM_C0lbP4nov2g4tL5tHQsM0&usqp=CAU);
+	background-position: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+section.probastat div.examenprobastat {
+	background: url(https://www.capital.ro/wp-content/uploads/2022/06/examen-elevi-studenti-1024x576.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+}
+section.probastat div.videoprobastat {
+	background: url(https://imgs.search.brave.com/DuEwQ0T108N3ak6-YN3uX_gtRWMNmbiRRKCodTN8jtk/rs:fit:1124:428:1/g:ce/aHR0cHM6Ly9wcm9k/LXNpdGVmaW5pdHkt/bGlicmFyeS5rYXBw/cm8uY29tL2ltYWdl/cy9kZWZhdWx0LXNv/dXJjZS9jYXJlZXIt/Y29ybmVyL3N0YXJ0/aW5nLWNhcmVlci9v/bmxpbmUtb3Itc2Vs/Zi1zdHVkeV8xNi5q/cGc);
+	background-size: 320px 180px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.probastat div.driveprobastat{
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.probastat div.resumeprobastat {
+	background: url(https://c8.alamy.com/compfr/2d9m11w/graphique-des-donnees-suivant-la-distribution-gaussienne-ou-la-courbe-de-cloche-sur-une-tablette-numerique-avec-une-tasse-de-cafe-science-business-et-statistique-concept-2d9m11w.jpg);
+	background-position: center;
+	background-size: 500px 180px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+/***************************************************************************************************************************************/
+/* metrologie */
+body.metrologie{
+	background: url(https://st2.depositphotos.com/1756291/9411/i/450/depositphotos_94113080-stock-photo-bearing-and-caliper-on-the.jpg);
+	background-size: 1350px 850px;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+
+
+}
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+	text-shadow: 6px 6px 10px black;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.metrologie{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.metrologie div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+		text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+border-style: inset;
+    border: 3px solid #A2A3B7;
+    border-radius: 18px;
+    color: whitesmoke;
+}
+
+section.metrologie div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.metrologie div.coursmetrologie {
+	background: url(https://i.twic.pics/v1/https://s3-eu-west-1.amazonaws.com/assets.atout-on-line.com/images/ingenieur/Formation/Ecole/metrologie_300.jpg);
+	background-position: center;
+
+}
+section.metrologie div.exometrologie {
+	background: url(https://st2.depositphotos.com/1756291/9411/i/450/depositphotos_94113080-stock-photo-bearing-and-caliper-on-the.jpg);
+	background-position: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+section.metrologie div.examenmetrologie {
+	background: url(http://studyinrussia.ru/images/pages/life-in-russia/zahod_TORFL_Depositphotos.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+}
+section.metrologie div.videometrologie {
+	background: url(https://imgs.search.brave.com/rNw531Zp6H8VegO6uat5dxVxzkeLftqRcRIkGxdFMnw/rs:fit:1188:450:1/g:ce/aHR0cHM6Ly93d3cu/bW9oYXdrY29sbGVn/ZS5jYS9zaXRlcy9k/ZWZhdWx0L2ZpbGVz/L3N0eWxlcy9iYW5u/ZXJfc3R5bGVfMTE4/OF94XzQwMF8vcHVi/bGljL2Jsb2ctaW1h/Z2VzL29ubGluZVN0/dWR5R3JvdXBfMTAw/MHg0MDAuanBnP2l0/b2s9NW9IM20za3g);
+	background-size: 320px 180px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.metrologie div.drivemetrologie{
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.metrologie div.resumemetrologie {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZVHQO2K9IqYnmYE75wUrtzXY7Nbgix3y02A&usqp=CAU);
+	background-position: center;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+/*****************************************************************************************************************************************/
+/*anglais tech*/
+body.anglais{
+	background: url(https://static3.mclcm.net/iod/images/v2/69/citytheque/localite_101_2/1200x630_100_300_000000x30x0.jpg);
+		background-size: 1350px 850px;
+	background-position: center;
+	background-repeat: no-repeat;
+
+
+
+}
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+	text-shadow: 6px 6px 10px black;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.anglais{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.anglais div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+		text-decoration: none;
+	text-shadow: 4px 4px 18px black;
+border-style: inset;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+section.anglais div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.anglais div.coursanglais {
+	background: url(https://www.neozone.org/blog/wp-content/uploads/schema-and-structured-data-for-wp/apprentissage-specificites-technique-quelles-anglais.jpg);
+	background-position: center;
+	background-size: 450px 180px;
+
+;margin-left: 200px;
+
+}
+section.anglais div.exoanglais {
+	background: url(https://www.mooveus.fr/blog/wp-content/uploads/2022/03/cahier-a-carreaux-english.png);
+	background-position: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+section.anglais div.examenanglais {
+	background: url(https://www.capital.ro/wp-content/uploads/2022/06/examen-elevi-studenti-1024x576.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+}
+section.anglais div.videoanglais {
+	background: url(https://imgs.search.brave.com/DuEwQ0T108N3ak6-YN3uX_gtRWMNmbiRRKCodTN8jtk/rs:fit:1124:428:1/g:ce/aHR0cHM6Ly9wcm9k/LXNpdGVmaW5pdHkt/bGlicmFyeS5rYXBw/cm8uY29tL2ltYWdl/cy9kZWZhdWx0LXNv/dXJjZS9jYXJlZXIt/Y29ybmVyL3N0YXJ0/aW5nLWNhcmVlci9v/bmxpbmUtb3Itc2Vs/Zi1zdHVkeV8xNi5q/cGc);
+	background-size: 320px 180px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.anglais div.driveanglais{
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+	;margin-right: 160px;
+}
+section.anglais div.resumeanglais {
+	background: url(https://coursparticulieranglais.fr/wp-content/uploads/2020/04/8-conseils-pour-am%C3%A9liorer-votre-niveau-danglais.png);
+	background-position: center;
+	background-size: 420px 150px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+/*************************************************************************************************************************************************/
+/*tech de base*/
+body.tech{
+	background-color: black;
+	background: url(https://www.holmatro.com/sites/default/files/inline-images/Applications_foundry.jpg);
+	background-size: 1350px 850px;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	color: whitesmoke;
+
+
+}
+
+}
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+	text-shadow: 6px 6px 10px black;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.tech{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.tech div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+	border-style: inset;
+    border: 3px solid white;
+}
+
+section.tech div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.tech div.courstech {
+	background:url(https://www.superprof.fr/ressources/wp-content/uploads/2016/01/ondulation-longiligne-tuyaux-768x472.jpg);
+	background-position: center;
+	background-size: 350px 140px;
+
+}
+section.tech div.exotech {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT46c9J1ObankaS7hG24ge4ZGB5A8uZNpcrQ0blbfLsVaywOGfeBKeCFdZ6lmV3gUlZb7k&usqp=CAU);
+	background-position: center;
+	background-size: 280px 100px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+section.tech div.examentech {
+	background: url(http://studyinrussia.ru/images/pages/life-in-russia/zahod_TORFL_Depositphotos.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+}
+section.tech div.videotech {
+	background: url(https://www.superprof.fr/ressources/wp-content/uploads/2009/09/revision-operations-calculs.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.tech div.drivetech {
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.tech div.resumetech {
+	background: url(https://www.pedagogie.ac-aix-marseille.fr/upload/docs/image/jpeg/2012-03/altitech.jpg);
+	background-position: center;
+	background-size: 310px 200px;
+	background-repeat: no-repeat;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+/*****************************************************************************************************************/
+/*thermo*/
+body.thermo{
+	background: url(https://img.directindustry.fr/images_di/photo-g/213571-14777161.webp);
+	background-size: 1350px 850px;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+
+
+}
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	color: whitesmoke;
+	font-size: 80px;
+	padding: 150px;
+	text-shadow: 6px 6px 10px black;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.thermo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.thermo div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+}
+
+section.thermo div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.thermo div.coursthermo {
+	background: url(https://marchenry.org/wp-content/uploads/2014/05/mayer.jpg);
+	background-position: center;
+	background-size: 280px 150px;
+}
+section.thermo div.exothermo {
+	background: url(https://www.ohio.edu/mechanical/thermo/Intro/Chapt.1_6/steamplant/supercrit4.gif);
+	background-position: center;
+		background-size: 280px 150px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+section.thermo div.examenthermo {
+	background: url(https://i.f1g.fr/media/eidos/805x453_crop/2020/04/01/XVMdf5dc0d8-7329-11ea-a6f7-cd77454205ed.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+}
+section.thermo div.videothermo {
+	background: url(https://geekflare.com/wp-content/uploads/2020/10/onlinecourse-1.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.thermo div.drivethermo{
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 450px 100px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.thermo div.resumethermo {
+	background: url(https://brindesciences.pagesperso-orange.fr/Image89.gif);
+	background-position: center;
+	background-size: 480px 150px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+/******************************************************************************************************************/
+/*math4*/
+body.math4{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#111111  ;
+	background:url(https://www.universite-paris-saclay.fr/sites/default/files/styles/2400xauto/public/2020-07/calculs-mathematiques.jpg?itok=zmX2YQCK)  ;
+	background-size: 600px 300px;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+	text-decoration: none;
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#343131    ;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+nav div.onglet ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+nav div.onglet li{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-decoration:none ;
+
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+nav div.onglet a:hover {
+	color: #09ECF7;
+	transition: 1.2s;
+}
+
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.math4{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.math4 div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+}
+
+section.math4 div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.math4 div.coursmath4 {
+	background: url(https://recherche.esme.fr/wp-content/uploads/2021/11/shutterstock_145072576_ret.png);
+	background-position: center;
+
+}
+section.math4 div.exomath4 {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsYgw1AmJpdawJyFLr_Ey7u0Q8aBNt1hC7vBguCGSyVQkNKZNDmMlOexne3hvSD5E1yWs&usqp=CAU);
+	background-position: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+section.math4 div.examenmath4 {
+	background: url(https://www.businessnews.com.tn/images/album/IMGBN44591epreuve-math.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+}
+section.math4 div.videomath4 {
+	background: url(https://www.superprof.fr/ressources/wp-content/uploads/2009/09/revision-operations-calculs.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.math4 div.drivemath4 {
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.math4 div.resumemath4 {
+	background: url(https://tse3.mm.bing.net/th?id=OIP.qDDkXly68cb7vzpN4eVMGgHaFP&pid=Apihttps://tse3.mm.bing.net/th?id=OIP.qDDkXly68cb7vzpN4eVMGgHaFP&pid=Api);
+	background-position: center;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+/*********************************************************************************************************************/
+/*mna*/
+body.mna{
+	background: url(https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/3/5/a/35a92fd622_50166485_code-binaire.jpg);
+	background-size: 1350px 950px;
+	background-position: center;
+	background-repeat: no-repeat;
+
+
+
+}
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+	text-shadow: 6px 6px 10px black;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.mna{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.mna div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+}
+
+section.mna div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.mna div.coursmna {
+	background: url(https://cdn.jai20enmaths.com/d/5b3902cce5bcf4000f122416/e9e267c0-1cb8-11e9-9af3-5b3440fae2aa.png);
+	background-position: center;
+background-size: 320px 180px;
+}
+section.mna div.exomna {
+	background: url(https://i.ytimg.com/vi/QJevGF1XLhY/maxresdefault.jpg);
+	background-position: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-size: 320px 180px;
+}
+section.mna div.examenmna {
+	background: url(http://images.radio-canada.ca/v1/ici-info/16x9/eleves-credits-education-epreuves-ministerielles-note-passage-examen.jpg);
+	background-size: 300px 150px;
+	background-position: center;
+}
+section.mna div.videomna {
+	background: url(https://cdn.futura-sciences.com/buildsv6/images/wide1920/0/1/3/0131b6b6e5_50175968_formation-ligne.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.mna div.drivemna{
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.mna div.resumemna {
+	background: url(https://i.ytimg.com/vi/94BteHGG3Ls/mqdefault.jpg);
+	background-position: center;
+	background-size: 500px 180px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+/*********************************************************************************************************************/
+/*vom*/
+body.vom{
+	background: url(https://www.tuningblog.eu/wp-content/uploads/2019/09/Verst%C3%A4rkungsfedern-Zusatzfedern-Tuning-6.jpg);
+		background-size: 1350px 950px;
+	background-position: center;
+	background-repeat: no-repeat;
+
+
+
+}
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+	text-shadow: 6px 6px 10px black;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.vom{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.vom div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+}
+
+section.vom div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.vom div.coursvom {
+	background: url(https://www.researchgate.net/profile/Thomas-Armitage/publication/325528231/figure/fig15/AS:632988756893717@1527927688571/The-response-of-the-alpha-beta-tracker-to-a-unit-step-function-stars-for-under-damped.png);
+	background-position: center;
+background-size: 320px 180px;
+}
+section.vom div.exovom {
+	background: url(https://assignmentpoint.com/wp-content/uploads/2017/07/Oscillation.jpg);
+	background-position: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-size: 310px 160px;
+}
+section.vom div.examenvom {
+	background: url(https://www.algerie360.com/wp-content/uploads/2017/06/n-EXAMEN-large570.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+}
+section.vom div.videovom {
+	background: url(https://media.lactualite.com/2013/10/educ-depart.jpg);
+	background-size: 290px 140px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.vom div.drivevom{
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.vom div.resumevom {
+	background: url(https://www.researchgate.net/profile/Guy-Postiaux/publication/292779359/figure/fig2/AS:735167207444495@1552288929955/Analyse-acoustique-des-sibilances-A-Vibration-periodique-simple-correspondant-a-une.png);
+	background-position: center;
+	background-size: 290px 150px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+/*****************************************************************************************************************************/
+/*fm*/
+body.fm{
+	background: url(https://www.corail-technologie.com/wp-content/uploads/2019/09/Mechanische-Fertigung.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1350px 950px;
+
+
+}
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+	text-shadow: 6px 6px 10px black;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.fm{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.fm div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+}
+
+section.fm div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.fm div.coursfm {
+	background: url(https://www.larousse.fr/encyclopedie/data/images/1001965-Tour_parall%C3%A8le.jpg);
+	background-position: center;
+background-size: 280px 180px;
+}
+section.fm div.exofm {
+	background: url(https://sites.google.com/site/tn20bicylindre/_/rsrc/1293731403528/volumique/le-cylindre/Mise%20en%20plan.PNG);
+	background-position: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-size: 280px 150px;
+}
+section.fm div.examenfm {
+	background: url(https://t1.uc.ltmcdn.com/fr/posts/5/5/0/comment_etudier_la_veille_d_un_examen_5055_600.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+}
+section.fm div.videofm {
+	background: url(https://assets.entrepreneur.com/content/3x2/2000/1603731958-cursos-online1.jpg);
+	background-size: 280px 120px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.fm div.drivefm{
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.fm div.resumefm {
+	background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEU59TvezNRcfrnsYrMNQPi6EVYpVZFJw-w-JFQZ5B42BvbjVPliwLlNTD1W5uAKyE_htIwNsG52wBtQb3iFK8Dw2_NBggG2tBHMon6z-CluvS87L1g7sRJJoYwjfMfdgSLTs9BwTHa6mCJ2e6InjSA3NmNQVcz2Ir6R8T7wf7Io3CGdJzAJdjCBEw/w1200-h630-p-k-no-nu/element%20fabrication%20mecanique.jpg);
+	background-position: center;
+		background-size: 280px 150px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+/**********************************************************************************************************************/
+/*elt*/
+body.elt{
+	background: url(https://www.megabuche.net/wp-content/uploads/2020/07/electricite-industrielle-besancon.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1350px 950px;
+
+
+}
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+	text-shadow: 6px 6px 10px black;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.elt{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.elt div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+}
+
+section.elt div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.elt div.courselt {
+	background: url(https://www.bt-technologies.com/wp-content/uploads/2020/03/bttechnologie1.jpg);
+	background-position: center;
+background-size: 320px 180px;
+}
+section.elt div.exoelt {
+	background: url(https://i.pinimg.com/originals/80/26/e1/8026e128a6804fedfb44335859ab85d8.jpg);
+	background-position: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+background-size: 320px 180px;
+	margin-right: 0px;
+}
+section.elt div.examenelt {
+	background: url(https://images.rtl.fr/~c/1200v800/rtl/www/1292885-des-collegiens-passent-le-brevet-des-colleges-illustration.png);
+	background-size: 320px 180px;
+	background-position: center;
+}
+section.elt div.videoelt {
+	background: url(https://webfiles.luxweb.com/upload/cms/1227/large/aececf66-ec3b-4a0a-aa83-55b041997a12.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.elt div.driveelt{
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.elt div.resumeelt {
+	background: url(https://www.renovationettravaux.fr/wp-content/uploads/2014/01/installation-electrique.jpg);
+	background-position: center;
+	background-size: 500px 180px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+/*********************************************************************************************************************/
+/*sdm*/
+body.sdm{
+	background:url(https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/a/8/8/a8888d4036_50186178_materiau-leger-resistant.jpg)
+;	background-size: 1350px 950px;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+
+
+}
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+	text-shadow: 6px 6px 10px black;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.sdm{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.sdm div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+}
+
+section.sdm div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.sdm div.courssdm {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/GraphenLayer.svg/640px-GraphenLayer.svg.png);
+	background-position: center;
+background-size: 300px 150px;
+}
+section.sdm div.exosdm {
+	background: url(https://lemta.univ-lorraine.fr/files/2019/11/Diapositive1-1024x842.jpg);
+	background-position: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-size: 320px 180px;
+}
+section.sdm div.examensdm {
+	background: url(https://static.lexpress.fr/medias_10429/w_1815,h_1362,c_crop,x_232,y_0/w_640,h_358,c_fill,g_center/v1431958222/des-candidats-au-baccalaureat-lors-de-l-epreuve-de-philosophie-le-16-juin-2014-a-strasbourg_5339791.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+}
+section.sdm div.videosdm {
+	background: url(https://www.europe-bfc.eu/wp-content/uploads/2018/04/etude-carriere-a-distance.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.sdm div.drivesdm{
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.sdm div.resumesdm {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Structure_matiere_echelle.svg/1200px-Structure_matiere_echelle.svg.png);
+	background-position: center;
+	background-size: 300px 140px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+/**********************************************************************************************************************/
+/*tec*/
+body.tec{
+	background: url(https://www.learning-mind.com/wp-content/uploads/2015/07/Communication-Through-Words-and-Actions.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1350px 950px;
+
+
+}
+header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+	text-shadow: 6px 6px 10px black;
+}
+
+/* fin du header  */
+/* debutr des boites */
+section.tec{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+
+section.tec div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: outset;
+	background-color: #39384C  ;
+}
+
+section.tec div a{
+	text-align: center;
+	text-decoration: none;
+	color: #CACAD3  ;
+    text-shadow: 4px 4px 10px black;
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:30px ;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-wrap: wrap;
+
+
+}
+section.tec div.courstec {
+	background: url(https://modeles-cv.fr/wp-content/uploads/2021/06/CVmaster.pdf.png);
+	background-position: center;
+background-size: 320px 90px;
+}
+section.tec div.exotec {
+	background: url(https://agentmajeur.fr/wp-content/uploads/rediger-memoire-these-miniature.jpg);
+	background-position: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+section.tec div.examentec {
+	background: url(https://assets.etudiant.lefigaro.fr/cms/pics/0b9757f0-da65-11e2-a636-935678b7e1a8-493x328.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+}
+section.tec div.videotec {
+	background: url(https://www.techsmith.fr/blog/wp-content/uploads/2021/12/iStock-1288092444.jpg);
+	background-size: 320px 180px;
+	background-position: center;
+	padding-right: ;
+	padding-left: ;
+}
+section.tec div.drivetec{
+	background: url(https://9to5google.com/wp-content/uploads/sites/4/2022/02/Google-Drive-logo-header.jpg?quality=82&strip=all&w=1600);
+	background-position: center;
+	background-size: 500px 128px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+section.tec div.resumetec {
+	background: url(https://static.lexpress.fr/medias_10011/w_1879,h_1410,c_crop,x_123,y_0/w_640,h_358,c_fill,g_center/v1412777837/emploi-candidat-cv-entretien-d-embauche-recrutement-chomage-1_5125732.jpg);
+	background-position: center;
+	background-size: 500px 180px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+/*********************************************************************************************************************/
+header h1{
+ text-shadow: 4px 4px 10px black;
+}

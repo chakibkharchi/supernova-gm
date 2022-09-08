@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>mdfch2</title>
+	<link rel="stylesheet" type="text/css" href="stylecours.css">
+</head>
+<body class="mdfchap2">
+	<nav>
+	<div class="onglet">
+	<ul>
+		<li class="acceuil">
+		 <a href="mdf.html">
+			acceuil 
+		 </a>
+		</li>
+
+
+	</ul>
+	
+	</div>
+
+</nav>
+<header>
+	<h1>
+	CHAPITRE2 : STATIQUE DES FLUIDES
+	</h1>
+</header>
+<section class="chap2mdf">
+	<h3>
+		1/ PRESSION EN UN POINT M D’UN FLUIDE
+
+	</h3>
+	<div>
+
+		<p>
+		La pression P est une grandeur scalaire. Par définition, elle est la force par unité de surface qui s’exerce perpendiculairement sur un élément de surface. 
+	<img alt="oups!!" src="img\eqt37.jpg">
+		</p>
+		<p>
+       La pression est toujours indépendante de la surface et de l’orientation de cette surface.
+
+	<img alt="oups!!" src="img\eqt38.jpg">
+
+		</p>
+	
+		<img alt="oups!!" src="img\eqt39.jpg">
+		<h5>
+			unite de pression 
+		</h5>
+		<img alt="oups!!" src="img\eqt40.jpg">
+
+
+	</div>
+	<h3>
+		2/ EQUATION FONDAMENTALE DE LA STATIQUE
+	</h3>
+	<div>
+		<img alt="oups!!" src="img\eqt41.jpg">
+		<p>
+			Equilibre des forces: ∑𝐹𝑒𝑥𝑡=0
+</p>
+<h5>Projection selon (ox) :</h5>
+<p>
+	 𝐹𝑥−𝐹(𝑥+𝑑𝑥)=0
+                                           <p>(P𝑥−𝑃(𝑥+𝑑𝑥)) δ𝑦 δ𝑧=0</p>
+
+                                           <p> (𝑃𝑥−(𝑃𝑥+(𝜕𝑃/𝜕𝑥)δ𝑥)) δ𝑦 δ𝑧=0</p>    
+                                            <p> ---->       𝜕𝑃/𝜕𝑥 = 0  ........(1)
+
+</p>
+<h5>
+	Projection selon (oy) : 
+</h5>
+<p>
+	  𝜕𝑃/𝜕𝑦   = 0 .......... (2)
+
+</p>
+<h5>
+	Projection selon (oz) : 
+</h5>
+<p>
+ 𝐹𝑧−𝐹(𝑧+𝑑𝑧)−𝑃=0
+                                          <p> (𝑃𝑧−𝑃(𝑧+𝑑𝑧)) δ𝑥 δ𝑦−𝑃=0</p>
+                                         <p>  (𝑃𝑧−(𝑃𝑧+(𝜕𝑃/𝜕𝑧)δ𝑧)) δ𝑥 δ𝑦− ρ(δ𝑥 δ𝑦 δ𝑧)𝑔=0</p>
+                                          <p> ----->  𝜕𝑃/𝜕𝑧=− ρ 𝑔 ...... (3)
+
+</p>
+<p>
+	  𝛻P=− ρ 𝑔
+</p>
+	<img alt="oups!!" src="img\eqt42.jpg">
+<p>
+	Si ρ = cst         (fluide incompressible)
+</p>
+
+<p>
+	on a:    𝜕𝑃/𝜕𝑧=𝑑𝑃/𝑑𝑧= −ρ𝑔      ===>        𝑑𝑃=−𝜌 𝑔 𝑑𝑧
+
+
+</p>
+<p>
+	𝑃a+ 𝜌𝑔Za=𝑃b+𝜌 𝑔 Zb=𝑃+ 𝜌 𝑔 𝑧 = 𝑐𝑠𝑡
+</p>
+<p>
+	Attention, en statique:  𝑃+𝜌 𝑔 𝑧=𝑐𝑠𝑡 
+
+</p>
+<p>
+	Calculons 𝑃_𝐵 en fonction de 𝑃_𝐴, 
+
+𝑃b=𝑃a+𝜌 𝑔 (Za-Zb)=𝑃a+𝜌 𝑔 ℎ
+
+La pression au point B est égale à la pression au point A, situé plus haut, 
++ la pression du poids de la colonne de fluide de hauteur h entre les deux points. 
+
+</p>
+<h5>conclusion</h5>
+<p>
+
+1) La pression est la même sur une surface horizontale du fluide au repos.
+</p>
+
+
+<p>2) La surface de séparation de deux fluides non miscibles est horizontale, caractérisée par la même pression.</p>
+
+<p>3) La surface libre d’un fluide est horizontale, caractérisée par la pression atmosphérique
+</p>
+	</div>
+<h3>
+	3/ THEOREME DE PASCAL
+
+</h3>
+	<div>
+		<p>
+			Dans un fluide incompressible en équilibre, toute variation de pression en un point entraîne la même variation de pression en tout autre point.
+		</p>
+		<h5>
+			Démonstration :
+		</h5>
+		<p>
+			𝑃a+𝜌𝑔 Za=𝑃b+𝜌 𝑔 Zb.........(a)
+		</p>
+		<p>
+			(Pa+∆𝑃a)+𝜌 𝑔 Za=(𝑃b+∆𝑃b)+𝜌 𝑔 Zb...............(b)
+		</p>
+		<p>
+			(a) – (b) :   ∆𝑃b=∆𝑃a
+
+		</p>
+	</div>
+	<h3>
+		4/ DIFFÉRENTS TYPES DE PRESSION
+
+	</h3>
+	<div>
+		<h5>Pression absolue 𝑃:</h5>
+		<p>        𝑃=𝑃0+𝜌 𝑔 ℎ</p>
+    <p> 𝑃0 est souvent égale à la pression atmosphérique </p>
+  <h5>
+  	Pression manométrique (relative) 𝑃𝑟 :
+  </h5>
+<p>
+	𝑃𝑟=𝑃−𝑃𝑎𝑡𝑚
+</p>
+<h5>
+  	Pression du vide 𝑃𝑣 :
+  </h5>
+  <p>
+  	     Si 𝑃<𝑃𝑎𝑡𝑚       →     création du vide :         𝑃𝑣=𝑃𝑎𝑡𝑚−𝑃
+
+  </p>
+	</div>
+		<h3>
+		5/ APPAREILS DE MESURE DE LA PRESSION
+	</h3>
+	<div>
+		<h5>Le piézomètre :</h5> 
+<p>  Mesure la pression absolue</p>
+	<img alt="oups!!" src="img\eqt43.jpg">
+<h5>- Le manomètre en U : 
+</h5>
+<p>
+	Mesure la pression absolue
+
+</p>
+<img alt="oups!!" src="img\eqt44.jpg">
+<h5>
+	 Le baromètre 
+</h5>
+<p>
+Mesure la pression atmosphérique
+ 
+</p>
+<img alt="oups!!" src="img\eqt45.jpg">
+
+	</div>
+	<h3>
+		6 / REPRÉSENTATION GRAPHIQUE DE LA PRESSION
+
+	</h3>
+	<div>
+		<img alt="oups!!" src="img\eqt46.jpg">
+	</div>
+	<h3>
+		7/ FORCES DE PRESSION SUR UNE PAROI PLANE HORIZONTALE
+
+	</h3>
+	<div>
+		<img alt="oups!!" src="img\eqt47.jpg">
+		<p>
+			F = 𝜌 𝑔 ℎ S
+		</p>
+		<p>
+			La force de pression sur une paroi horizontale correspond au poids de la colonne de liquide de hauteur h.
+
+		</p>
+	</div>
+	<h3>
+		8/ FORCES DE PRESSION SUR UNE PAROI PLANE INCLINÉE
+
+	</h3>
+	<div>
+		<img alt="oups!!" src="img\eqt48.jpg">
+		<p>
+			La force de pression sur l’élément dA est: 
+
+dR = [(Patm+𝜌 g h)-Patm] dA = 𝜌 g h dA = 𝜌 g y sin() dA
+
+L’intensité de la force de pression agissent sur la surface A est :
+
+
+		</p>
+				<img alt="oups!!" src="img\eqt49.jpg">
+				<p>
+					Donc, la force de pression sur une surface plane à orientation arbitraire est égale au produit de la surface de la paroi par la pression que subit sont centre de gravité.
+
+				</p>
+<h5>
+	Centre de poussée C de la force de pression R :
+
+</h5>
+<p>
+	Le point d’application de la force R est appelé centre de poussée C = (xc, yc).
+
+Pour déterminer les coordonnées de C, on prend le moment de la force R par rapport à l’axe (ox) puis (oy). 
+
+</p>
+	<img alt="oups!!" src="img\eqt50.jpg">
+
+	</div>
+
+	</section>
+</body>
+</html>

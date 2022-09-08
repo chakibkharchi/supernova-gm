@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>probastatch2</title>
+	<link rel="stylesheet" type="text/css" href="stylecours.css">
+</head>
+<body class="probastatchap2">
+	<nav>
+	<div class="onglet">
+	<ul>
+		<li class="acceuil">
+		 <a href="probastat.html">
+			acceuil 
+		 </a>
+		</li>
+
+
+	</ul>
+	
+	</div>
+
+</nav>
+<header>
+	<h1>
+		CHAPITRE 2 : STATISTIQUE DOUBLE
+	</h1>
+	<h4>
+		Dans ce chapitre, on s’intéresse à l’étude simultanée de deux variables X et
+Y , étudiées sur le même échantillon.
+L’objectif essentiel présenté est la mise en évidence d’une éventuelle variation
+simultanée des deux variables X et Y ,que nous appelons alors liaison (ou corrélation).
+Pour étudier d’éventuelles dépendances, on est amené à s’intéresser simultanément
+à deux caractères X et Y d’une même population.
+On définit alors une série statistique à deux variables X et Y par une suite de
+n couples de valeurs {(xi, yi), i = 1, ..., n}.
+	</h4>
+</header>
+<section class="chap2probastat">
+	<h3>
+		1/ Distribution conjointe
+	</h3>
+	<div>
+		<p>Ce qui nous intéresse est de voir dans quelle mesure les deux caractères pris
+ensemble s’influencent l’un et l’autre. On présente alors les données sous format
+d’un tableau à double entrée, appelé tableau de contingence, ou tableau de
+distribution conjointe.</p>
+<p>
+	Soient x1, x2, ..., xp les valeurs du caractère X et y1, y2, ..., yr les valeurs du
+caractère Y .
+</p>
+		<img alt="oups!!" src="img\example212.jpg">
+<p>
+	où nij(effectif conjoint) est le nombre d’individus de l’échantillon pour lesquels
+les caractères X et Y valent respectivement xi et yj
+</p>
+		<img alt="oups!!" src="img\example213.jpg">
+<p>
+	La distribution conjointe est définie alors par la donnée de l’effectif conjoint
+nij pour chaque modalité xi de X(i = 1, p) et yj de Y (j = 1, r) ({(xi, yj , nij) ; i = 1, 2, ..., p, j = 1, 2, ..., r}).
+</p><p>On peut considérer aussi la distribution conjointe des fréquences :
+</p>
+		<img alt="oups!!" src="img\example214.jpg">
+
+	</div>
+	<h5>
+		Exemple
+	</h5>
+		<img alt="oups!!" src="img\example215.jpg">
+
+	<h3>
+		2/ Nuage de points
+	</h3>
+	<div>
+<p>
+	l s’agit d’un graphique pour représenter les observations simultanées de deux
+variables quantitatives. Il consiste à considérer un système d’axes orthogonaux,
+l’axe des abscisses représentant la variable X et l’axe des ordonnées représentant
+la variable Y , puis à représenter chaque individu observé par un point de
+coordonnées (xi, yj) .
+</p>
+		<img alt="oups!!" src="img\example216.jpg">
+
+	</div>
+	<h3>
+		3/Distributions marginales
+	</h3>
+	<div>
+		<p>
+			L’étude d’une série bivariée comporte en premier lieu, l’analyse des séries
+marginales univariées obtenues en ne considérant qu’une seule variable à la fois.
+		</p>
+		<p>
+			La distribution marginale de X est donnée par l’ensemble des couples {(xi, ni.) , i = 1, 2, ..., p}
+A chaque modalité xi est associée l’effectif marginal ni. tel que :
+		</p>
+		<img alt="oups!!" src="img\example217.jpg">
+<p>
+	La distribution marginale des fréquences de X est définie par l’ensemble {(xi, fi.) , i = 1, 2, ..., p}
+telle que :
+</p>
+		<img alt="oups!!" src="img\example218.jpg">
+<p>
+		
+	. On définit la distribution marginale de Y de la même façon par l’ensemble
+{(yj , n.j) , j = 1, 2, ..., r}
+A chaque modalité yj est associée l’effectif marginal n.j tel que :
+</p>
+<img alt="oups!!" src="img\example219.jpg">
+<p>
+	La distribution marginale des fréquences de Y est définie par l’ensemble {(yj , f.j) , j = 1, 2, ..., r}
+telle que :
+</p>
+<img alt="oups!!" src="img\example220.jpg">
+
+	</div>
+	<h5>
+		Exemple :
+	</h5>
+<img alt="oups!!" src="img\example221.jpg">
+
+	<h3>
+		4/ Distribution conditionnelle
+	</h3>
+	<div>
+		<p>
+			La distribution conditionnelle de la variable X pour Y = yk fixé, est la
+distribution statistique des valeurs de X obtenues en se limitant aux individus
+pour lesquels Y est égal à yk.</p><p>
+La distribution conditionnelle de X sachant Y = yk (on note X/Y = yk) s’obtient
+en calculant les quantités :
+		</p>
+<img alt="oups!!" src="img\example222.jpg">
+<p>
+	De même, la distribution conditionnelle de Y sachant X = xk s’obtient en
+calculant les quantités :
+</p>
+<img alt="oups!!" src="img\example223.jpg">
+
+	</div>
+	<h5>
+		Exemple :
+	</h5>
+<img alt="oups!!" src="img\example224.jpg">
+	<h3>
+		5/ Indépendance entre deux variables statistiques
+	</h3>
+	<div>
+		<p>
+			Les deux variables X et Y sont dites indépendantes ssi :
+		</p>
+<img alt="oups!!" src="img\example225.jpg">
+<p>
+	On peut également vérifier l’indépendance entre X et Y à partir des distributions
+conditionnelles.
+X et Y sont indépendantes ssi :
+</p>
+<img alt="oups!!" src="img\example226.jpg">
+
+	</div>
+<h3>
+	6/ Analyse des variables
+</h3>
+<div>
+	<p>
+		Les variables X et Y peuvent être analysées séparément.
+Et donc calculer tous les paramètres comme les moyennes et les variances marginales.
+	</p>
+	<h5>
+		Moyenne marginale de X :
+	</h5>
+<img alt="oups!!" src="img\example227.jpg">
+<p>---------------------------------------------------------</p>
+	<h5>
+		Moyenne marginale de Y :
+	</h5>
+<img alt="oups!!" src="img\example228.jpg">
+<p>---------------------------------------------------------</p>
+
+	<h5>
+		Variance marginale de X :
+	</h5>
+<img alt="oups!!" src="img\example229.jpg">
+<p>---------------------------------------------------------</p>
+
+	<h5>
+		Variance marginale de Y :
+	</h5>
+<img alt="oups!!" src="img\example230.jpg">
+
+<p>
+	On peut également calculer les paramètres des distributions conditionnelles.
+</p>
+<p>---------------------------------------------------------</p>
+
+	<h5>
+		Moyenne conditionnelle de X sachant Y = yk
+	</h5>
+<img alt="oups!!" src="img\example231.jpg">
+<p>---------------------------------------------------------</p>
+
+	<h5>
+		Moyenne conditionnelle de Y sachant X = xi
+	</h5>
+<img alt="oups!!" src="img\example232.jpg">
+<p>---------------------------------------------------------</p>
+
+	<h5>
+		Variance conditionnelle de X sachant Y = yk
+	</h5>
+<img alt="oups!!" src="img\example233.jpg">
+<p>---------------------------------------------------------</p>
+
+	<h5>
+		Variance conditionnelle de Y sachant X = xi
+	</h5>
+
+<img alt="oups!!" src="img\example234.jpg">
+</div>
+<h5>
+		Exemple :
+	</h5>
+<img alt="oups!!" src="img\example235.jpg">
+<h3>
+	7/ Covariance et coefficient de corrélation linéaire
+</h3>
+<div>
+	<h5>
+		7.1 Covariance
+	</h5>
+	<p>
+		On appelle covariance d’une série statistique double, notée cov(X, Y ), le
+paramètre qui donne la variabilité de X par rapport à Y , donné par l’expression
+suivante :
+	</p>
+	<p>
+		— à partir de la série brute :
+	</p>
+<img alt="oups!!" src="img\example236.jpg">
+<p>
+	— à partir du tableau de contingence :
+</p>
+<img alt="oups!!" src="img\example237.jpg">
+<h5>
+	7.2 Coefficient de corrélation linéaire
+</h5>
+<p>
+	Ce coefficient mesure le degré de dépendance (liaison) linéaire entre X et Y ,
+noté rX,Y , il se calcule comme suit :
+</p>
+<img alt="oups!!" src="img\example238.jpg">
+
+</div>
+<div>
+	<h5>
+		Propriétés
+	</h5>
+	<p>
+		1. −1 < rX,Y < 1</p>
+<p>2. X et Y indépendantes ) cov(X, Y ) = 0</p>
+<p>3. si |rX,Y | = 1, une parfaite corrélation linéaire entre X et Y</p>
+<p>4. si |rX,Y | = 0 ; absence d’une corrélation linéaire entre X et Y</p>
+<p>5. si −0.85 < rX,Y < 0.85 ; une très forte corrélation linéaire entre X et Y .
+	</p>
+</div>
+<h5>
+		Exemple :
+	</h5>
+<img alt="oups!!" src="img\example239.jpg">
+<h3>
+	8/ Ajustement linéaire
+</h3>
+<div>
+	<p>
+		Soit (xi, yi) une série statistique double et M(xi, yi)i=1,n le nuage de points
+associé.</p>
+<p>Quand le nuage de points a une forme général linéaire, on peut tenter de préciser
+la relation qui lie les variables X et Y par la recherche d’une droite qui ajuste
+au mieux les valeurs observées.
+</p><p>Graphiquement, cela signifie que l’on cherche une droite qui passe au plus près
+de tous les points du nuage.</p>
+<p>Cette droite d’équation Y = aX+b est déterminée par la méthode des moindres
+carrés. Où a et b sont tels que la somme des carrés des écarts S(a, b) soit minimale.
+	</p>
+<img alt="oups!!" src="img\example240.jpg">
+		<p>
+		S(a, b) atteint son minimum lorsque les dérivées partielles par rapport à a
+et b s’annulent.
+	</p>
+<img alt="oups!!" src="img\example241.jpg">
+	<p>
+		La formule du paramètre b permet de constater que la droite passe par le
+point moyen de coordonnées (¯x, ¯y)
+	</p>
+	<p>
+		La droite d’équation Y = aX +b est appelée droite de régression linéaire de
+Y en X,elle est notée ΔY/X
+	</p>
+
+</div>
+<div>
+	<h5>
+		Remarque
+	</h5>
+	<p>
+	De la même façon, on peut déterminer la droite de régression de X en Y :
+ΔX/Y : X = aY + b avec :	
+	</p>
+<img alt="oups!!" src="img\example242.jpg">
+<p>
+	Notons que les deux droites de régression (Y en X et X en Y ) sont généralement
+distinctes, elles se coupent au point moyen du nuage de coordonnées (¯x, ¯y).
+</p>
+</div>
+<div>
+	<h5>
+		Qualité de l’ajustement
+	</h5>
+	<p>
+		Pour mesurer la qualité d’un ajustement linéaire, on utilise le coefficient
+de détermination, noté r^2, tel que : r^2 = r^2X
+,Y .</p><p> Plus r2 est proche de 1, plus
+l’ajustement est de bonne qualité (notamment quand r^2 > 0.75). Et plus r^2 est
+proche de 0, plus l’ajustement est de mauvaise qualité.
+	</p>
+</div>
+<div>
+	<h5>
+		Valeurs ajustées
+	</h5>
+	<p>
+		Les valeurs ajustées (prédites) yi* de Y , sont obtenues au moyen de la droite
+de régression de Y en X :
+	</p>
+<img alt="oups!!" src="img\example243.jpg">
+<p>
+	De même, les valeurs ajustées (prédites) xi* de X sont obtenues au travers
+de la droite de régression de X en Y :
+</p>
+<img alt="oups!!" src="img\example244.jpg">
+
+</div>
+<h5>
+Exemple :
+	</h5>
+<img alt="oups!!" src="img\example245.jpg">
+</section>
+</body>
+</html>

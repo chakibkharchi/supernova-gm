@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>math3resume</title>
+	<link rel="stylesheet" type="text/css" href="styleresume.css">
+</head>
+<body class="math3resume">
+	<nav>
+	<div class="onglet">
+	<ul>
+		<li class="acceuil">
+		 <a href="math3.html">
+			acceuil 
+		 </a>
+		</li>
+
+
+	</ul>
+	
+	</div>
+
+</nav>
+<header>
+	<h1>
+		RESUME
+	</h1>
+	
+</header>
+<section class="resumemath3">
+<h3>
+Chapitre 1 : les serie numerique 
+</h3>
+<div>
+	<h5> 1 / regle de comparaison </h5>
+	<p>
+		0 ≤ Un ≤ Vn pour tous n ∈ N :
+	</p>
+	<p>
+ 	   - ΣVn converge ==> ΣUn converge  
+ </p>
+ <p>
+ 	   -ΣUn diverge ==> ΣVn diverge
+ </p>
+</div>
+<div>
+	<h5>
+		2/ regle de comparaison logarithmique
+	</h5>
+	<p>
+		 0 ≤ (Un+1 /Un) ≤ (Vn+1/Vn) pour tous n ∈ N :
+	</p>
+	  <p>
+ 	   - ΣVn converge ==> ΣUn converge  
+ </p>
+ <p>
+ 	   -ΣUn diverge ==> ΣVn diverge
+ </p>
+</div>
+<div>
+	<h5>
+		3/ critere d'equivalence 
+	</h5>
+	
+		<p>
+ [lim n → +∞ (Un/Vn)] = l ; l ≠ 0 et l ≠ +∞ 
+</p>
+	<p>
+	alors les deux series ΣUn et ΣVn sont de meme nature
+</p>
+</div>
+<div>
+	<h5>
+		4/ comparaison avec une integrale
+	</h5>
+	 <p>
+	soit f:[1 ; +∞[ → R+ une application continue decroissante eet positive , on pose Un =f(n) pour tous n ∈ N* alors 
+</p>
+<p>
+	ΣUn converge <=>  ∫ f(x)dx  exsiste 
+</p>
+</div>
+<div>
+	<h5>
+		5/ series de Reimann
+	</h5>
+	 	<p>
+ 		on appelle serie de REIMANN ΣUn toute serie dont le terme generale est de la forme   
+ 	</p>
+ 	<img alt="oups!!" src="img\eqt4.jpg">
+  	<p>
+ 		n>1 et α ∈ R
+ 	</p>
+ 	 <p>
+ 		la serie de REIMANN <img alt="oups!!" src="img\eqt5.jpg"> converge si et seulemnet si α > 1 
+ 	</p>
+</div>
+<div>
+	<h5>
+		6/ critere d'Alambert
+	</h5>
+</p>
+ 		<img alt="oups!!" src="img\eqt1.jpg">
+ 	
+ 	<p>
+ 		- l < 1   --> ΣUn converge 
+ 	</p>
+ 	<p>
+ 		- l > 1   --> ΣUn diverge 
+ 	</p>
+ 	<p>
+ 		- l = 1   --> on ne peut rien conclure  
+ 	</p>
+	</div>
+	<div>
+		<h5>
+			7/ critere de Cauchy
+		</h5>
+    <p>
+ 		soit ΣUn une serie a terme strictement positif posons :
+ 	</p>
+    <img alt="oups!!" src="img\eqt2.jpg">
+ 	 <p>
+ 		- l < 1   --> ΣUn converge 
+ 	</p>
+ 	<p>
+ 		- l > 1   --> ΣUn diverge 
+ 	</p>
+ 	<p>
+ 		- l = 1   --> on ne peut rien conclure  
+ 	</p>
+
+	</div>
+
+<div>
+	<h5>
+		8/ critere de RAABE DUHAMEL
+	</h5>
+	<p>
+		soit soit ΣUn une serie a terme strictement positif on pose :
+	</p>
+	<img alt="oups!!" src="img\eqt1.jpg">
+	 <p>
+ 		- l > 1   --> ΣUn converge 
+ 	</p>
+ 	<p>
+ 		- l < 1   --> ΣUn diverge 
+ 	</p>
+ 	<p>
+ 		- l = 1   --> on ne peut rien conclure  
+ 	</p>
+</div>
+<div>
+	<h5>9/ critere d'ABEL</h5>
+	<p>
+		soit ΣUn une serie a terme quelconques on suppose que :   Un = An . Bn , avec Bn strictement positif telles que 
+	</p>
+
+    <p>
+ 		- la suite (Bn)n est decroissante et tend vers 0 (Bn+1 > Bn )	
+ 	</p>
+ 	<p>
+ 		il existe M > 0 tel que pour tous p,q ∈ N  p>q ==> |Aq +Aq+1 + Aq+2 + ......+Ap|< M 
+ 	</p>
+ 	<p>
+ 		alors la serie ΣUn est convergente 
+ 	</p>
+</div>
+<h3>
+Chapitre 2 : les serie entiere
+</h3>
+<div>
+	<h5>
+		1/ existance du rayon de convergence 
+	</h5>
+	<p>
+			soit <img alt="oups!!" src="img\eqt12.jpg"> une serie entiere alors il existe un unique reel R > 0 (eventuellement infini) tel que 
+		</p>
+		<p>
+			<img alt="oups!!" src="img\eqt12.jpg"> converge absolument dans ]-R , +R[
+		</p>
+		<p>
+			<img alt="oups!!" src="img\eqt12.jpg"> diverge si |x| > R
+		</p>
+		<p>
+			le rayon de convergence d'une serie <img alt="oups!!" src="img\eqt12.jpg"> est caracterise par :
+
+		</p>
+		<p>
+			|x| < R ----> la serie est absolument convergente 
+		</p>
+		<p>
+			|x| > R ----> la serie diverge 
+		</p>
+		<p>
+			|x| = R ----> est le cas douteux ou on ne peut rien dire sur la nature 
+		</p>
+		<p>
+		 R > r >|x| , pour r > 0 la serie est normalement convergente     
+		</p>
+</div>
+<div>
+	<h5>
+		2/ calcule du rayon de convergence 
+	</h5>
+	<p>
+			soit <img alt="oups!!" src="img\eqt12.jpg">  une serie entiere le rayon de convergence R est donné par la relation : 
+		</p>
+		<img alt="oups!!" src="img\eqt11.jpg">
+</div>
+<div>
+	<h5>
+		3/ continuite 
+	</h5>
+
+	<p>
+		soit <img alt="oups!!" src="img\eqt12.jpg">  une serie entiere le rayon de convergence R et soit f sa somme qui est definis par <img alt="oups!!" src="img\eqt10.jpg"> sur ]-R , R[ la fonction f est alors continue
+	</p>
+</div>
+<div>
+<h5>
+	4 / derivation
+</h5>
+
+
+	<p>
+		soit <img alt="oups!!" src="img\eqt12.jpg">  une serie entiere le rayon de convergence R et soit f la fonction definis sur ]-R , R[ par  <img alt="oups!!" src="img\eqt10.jpg"> alors f est derivable et sa derive s'obtient en derivant terme a terme : 
+
+	</p>
+	<img alt="oups!!" src="img\eqt13.jpg">
+</div>
+
+<div>
+	<h5>
+		5/ integration
+	</h5>
+	<p>
+		soit <img alt="oups!!" src="img\eqt12.jpg">  une serie entiere le rayon de convergence R et soit f la fonction definis sur ]-R , R[ par  <img alt="oups!!" src="img\eqt10.jpg"> alors pour tout intervalle [0 , x]  appartient a ]-R , R[ on peut calculer <img alt="oups!!" src="img\eqt14.jpg"> en integrant terme a terme :
+	</p>
+	<img alt="oups!!" src="img\eqt15.jpg">
+	<p>
+		la serie entiere 	<img alt="oups!!" src="img\eqt16.jpg"> est de rayon de convergence R qu'est aussi une primitive de f s'annulant en 0
+	</p>
+</div>
+<div>
+	<h5>
+		6/ serie de Taylor
+	</h5>
+
+		<p>
+			on appelle une serie de taylor d'une fonction f de classe <img alt="oups!!" src="img\eqt17.jpg"> la serie entiere 
+		</p>
+		<img alt="oups!!" src="img\eqt19.jpg">
+	
+
+</div>
+<h3>
+Chapitre 3 : les serie de Fourier
+</h3>
+<div>
+	<h5>
+		1 / serie de fourier de fonction T-periodique
+	</h5>
+	<p> 
+	on appelle serie de fourier la serie trigonometrique definis par </p>
+	<img alt="oups!!" src="img\example22.jpg">
+	<p>
+		on appelle a0 , an , bn les coefficient de fourier
+	</p>
+	<h5>
+	calcul des coefficient de fourier 
+</h5>
+<p>
+	soit f une fonction T-periodique dont la periode est egale a  T = 2 π/ω , on a :
+</p>
+<img alt="oups!!" src="img\example22.jpg">
+<p> tel que </p>
+<img alt="oups!!" src="img\eqt20.jpg">
+</div>
+<div>
+		<h5> 2 /Theoreme de DIRICHLET</h5>
+		<p>
+			soit f une fonctin periodique de periode T =2π satisfaisant au condition suivant (appelées aussi condition de DIRICHLET)  
+
+		</p>
+		<h6> condition 1 </h6>
+		<p>
+			les discontinuités de f sont en nobres finis 
+		</p>
+		<h6> condition 2 </h6><p>
+			f admet en tout point une derivée a droite et une derivée a gauche 
+		</p>
+		<p>
+			
+		</p>
+		<p>
+			alors la serie de fourier associée a f est convergente et on a 
+		</p>
+<img alt="oups!!" src="img\eqt21.jpg">
+	</div>
+
+	<div>
+		<h5>
+			3/ egalite de Parseval
+		</h5>
+		<p>
+			soit f une fonction developpable en serie de fourier et de periode T = 2 π/ω , alors on a : 
+		</p>
+		<img alt="oups!!" src="img\eqt22.jpg">
+	</div>
+
+	<div>
+		<h5>
+			4 /serie de fourier de fonction de periode arbitraire
+		</h5>
+		<p>
+			soit f une fonction periodique de periode T = 2l pour la developper en serie de Fourier sur un intervale de [-l ; l [ faisant le changement de variable x= lt/π  , la fonction g(t) = f(lt/π) sera une fonction 2π -periodique de t car :
+		</p>
+		<img alt="oups!!" src="img\eqt23.jpg">
+		<p>
+			on peut developper la serie de Fourier de f dans l'intervalle [-π ; π] en retournant a la variable x en posant t= πx/l  
+		</p>
+		<img alt="oups!!" src="img\eqt24.jpg">
+		<p>avec :</p>
+		<img alt="oups!!" src="img\eqt25.jpg">
+	</div>
+</section>
+</body>
+</html>

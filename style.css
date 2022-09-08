@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+body{
+	font-family: 'Fredoka', sans-serif;
+	background: #141414;
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+}
+footer{
+	background-color: #30383D;
+	background-position: center;
+	padding-left:10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-decoration: none;
+}
+footer p{
+	color: #6D7C84;
+	background: 100%;
+text-decoration: none;
+text-align: center;
+
+}
+body.page{
+	margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0; 
+	background-color:#141414 ;
+	
+	align-items: center;
+
+}
+nav div.onglet{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:5px ;
+margin-left: 750px;
+}
+nav div.logo a{
+font-size: 30px;
+text-shadow: 1px 1px 3px #B5BABD;
+padding-top:10px ;
+
+padding-left:10px ;
+color: white;
+}
+nav div.onglet a:hover{
+color: darkred;
+font-weight: 600px; 
+
+}
+nav div.onglet a{
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+form{
+	background-color: #141414;
+	color: whitesmoke;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-right: 90px;
+padding-left: 90px;
+
+}
+form div{
+	background-color: darkred;
+	color: whitesmoke;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-right: 0px;
+padding-left: 0px;
+border-style: inset;
+    border: 1px solid black;
+    border-radius: 5px;}
+form input{
+	background-color: whitesmoke;
+	color: black;
+	font-size: 15px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right: 240px;
+padding-left: 20px;
+margin-left: 400px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-style: inset;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+nav div.buttons button {
+	padding: 15px 20px;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+
+}
+nav button.login{
+	background-color: inherit;
+	color: #f8f8f8;
+	margin-right: 10px;
+
+}
+nav button.register{
+	background-color: darkred;
+	color: whitesmoke;
+	margin-right: 10px;
+
+}
+nav button.register a{
+	background-color: darkred;
+	color: whitesmoke;
+	text-decoration: none;
+
+}
+/* fin barre de nav */
+
+/* debut du header  */
+header{
+	margin-top: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+header h1{
+	text-align: center ;
+	font-size: 80px;
+	padding: 150px;
+}
+/* FIN du header  */
+/* toute les (boite)  */
+section.modules1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color:141414 ;
+
+
+}
+section.modules2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color:141414 ;
+
+
+}
+section.modules1 div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 3px solid white;
+    border-radius: 18px;
+    color: whitesmoke;
+}
+section.modules1  div a{
+	text-align: center;
+	text-decoration: none;
+	
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:50px ;
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	flex-wrap: wrap;
+		color: #F2FEFF;
+	text-shadow: 10px 10px 20px black;
+
+
+}
+section.modules2 div{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+		text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 3px solid white;
+    border-radius: 18px;
+    color: whitesmoke;
+
+}
+section.modules2  div a{
+	text-align: center;
+	text-decoration: none;
+	
+	cursor: pointer;
+	font-size: 30px;
+	padding-right:50px ;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	flex-wrap: wrap;
+	color: #F2FEFF;
+	text-shadow: 6px 6px 16px black;
+
+
+
+}
+
+/* debut du math  */
+section.modules1 div.math3 a{
+ margin-right: 50px;
+ margin-left: 50px;
+ margin-bottom: 30px;
+ padding: 50px;
+margin-top:30px ;
+
+}
+section.modules1 div.math3 {
+
+background: url(https://ichef.bbci.co.uk/news/800/cpsprodpb/164EE/production/_109347319_gettyimages-611195980.jpg.webp);
+background-repeat: no-repeat;
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+
+ 
+    border-radius: 18px;
+    color: whitesmoke;
+
+}
+/* fin du math  */
+
+/* debut du mdf  */
+section.modules1 div.mdf a{
+ margin-right: 50px;
+ margin-left: 50px;
+ margin-bottom: 30px;
+ padding: 50px;
+margin-top:30px ;
+}
+section.modules1 div.mdf {
+background: url(https://www.technologuepro.com/userfiles/image/coursmeca/mecanique-des-fluides-2.jpg);
+background-repeat: no-repeat;
+background-size: 400px 180px;
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+    border-radius: 18px;
+    color: whitesmoke;
+}
+/* fin du mdf  */
+/* debut du rdm  */
+section.modules1 div.rdm a{
+ text-align: center;
+ margin-right: 64px;
+ margin-left: 64px;
+ margin-bottom: 30px;
+ margin-top:30px ;
+ padding: 50px;
+}
+section.modules1 div.rdm {
+
+background: url(https://moodle.luniversitenumerique.fr/pluginfile.php/823/course/section/160/images-RDM.jpg);
+background-repeat: no-repeat;
+background-size: 400px 180px;
+	text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+
+    border-radius: 18px;
+    color: whitesmoke;
+}
+
+
+}
+/* fin du rdm  */
+
+/* debut de mecanique rationelle  */
+section.modules1 div.mecarat a{
+padding: 10px;
+}
+section.modules1 div.mecarat{
+background: url(https://www.studyrama.com/local/cache-vignettes/L990xH363/arton4972-34fcf.png?1607618155);
+background-repeat: no-repeat;
+padding-right: 0PX;
+	}
+/*  fin de meca rat */
+/* debut de proba stat  */
+section.modules1 div.probastat a{
+ text-align: center;
+margin-left: 12px;
+margin-right: 12px;
+padding: 50px;
+;
+}
+section.modules1 div.probastat{
+background: url(https://www.iweps.be/wp-content/uploads/2018/09/Banner-Stats-caroussel-1024x396.jpg);
+background-repeat: no-repeat;
+background-size: 350px 180px;
+		text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+
+    border-radius: 18px;
+    color: whitesmoke;}
+/*   fin de probastat */
+/*  debut metrologie  */
+section.modules1 div.metrologie a{
+ margin-right: 10px;
+ margin-left: 10px;
+ margin-bottom: 30px;
+ margin-top:30px ;
+ 
+}
+section.modules1 div.metrologie{
+background: url(https://www.feecs-usinage.fr/wp-content/uploads/2019/images_formations/01BM01.jpg);
+background-repeat: no-repeat;
+background-size: 360px 180px;
+		text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+	border-style: inset;
+    border: 5px solid grey;
+    border-radius: 18px;
+    color: whitesmoke;}
+/* fin  */
+/* debut technologie de base */
+section.modules1 div.tech{
+background: url(https://thumbs.dreamstime.com/z/fin-vers-le-haut-de-la-bouteille-en-plastique-moule-soufflant-pour-processus-fabrication-production-s%C3%A9rie-travail-industriel-143119686.jpg);
+background-repeat: no-repeat;
+background-size: 380px 180px;
+		text-decoration: none;
+	text-shadow: 4px 4px 10px black;
+
+    border-radius: 18px;
+    color: whitesmoke;}
+/* fin  */
+/* debut dessin technique */
+section.modules1 div.dessin a{
+	color: black;
+}
+section.modules1 div.dessin{
+background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/SPA.08042020.001_-_Shaft.jpg/403px-SPA.08042020.001_-_Shaft.jpg);
+background-repeat: no-repeat;
+
+	}
+/* fin  */
+/* debut anglais */
+section.modules1 div.anglais a{
+
+}
+section.modules1 div.anglais{
+background: url(https://www.cap-formation.com/wp-content/uploads/2017/11/anglais-professionnel-500x285.jpg);
+background-repeat: no-repeat;
+
+	}
+/*   */
+/*debut info 3   */
+section.modules1 div.info a{
+	color: black;
+
+}
+section.modules1 div.info {
+ padding-right: 490px;
+ padding-left: 490px;
+
+}
+section.modules1 div.info{
+background: url(https://www.researchgate.net/profile/Timo-Kuosmanen/publication/265251957/figure/fig5/AS:667691677392898@1536201509326/Matlab-code-for-the-estimation-of-the-lower-envelop.png);
+background-repeat: no-repeat;
+background-size: 1320px 300px;
+	}
+/*fin info 3   */
+/* debut thermo */
+section.modules2 div.thermo a{
+	
+}
+section.modules2 div.thermo {
+	padding-right: 55px ;
+	padding-left: 55px;
+	background: url(https://media.lesechos.com/api/v1/images/view/5c24dab83e454630f00a5f8f/1280x720/02196781306-web.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 420px 180px;
+
+
+}
+/*fin*/
+
+/*debut math4*/
+section.modules2 div.math4 a{
+	
+}
+section.modules2 div.math4 {
+	padding-right: 70px ;
+	padding-left: 70px;
+	background: url(https://nouvelles.umontreal.ca/fileadmin/_processed_/csm_20170712_congres-mathematique_61618cb288.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 420px 180px;
+
+
+
+}
+
+/*fin*/
+/*debut mna*/
+section.modules2 div.mna a{
+	
+}
+section.modules2 div.mna {
+		padding-right: 70px ;
+	padding-left: 70px;
+		background: url(https://www.ensta-bretagne.fr/sites/default/files/2018-07/SNS-CODE%20LA.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 480px 180px;
+
+
+}
+
+/*fin*/
+/*debut vom*/
+section.modules2 div.vom a{
+}
+section.modules2 div.vom {
+	padding-right: 80px ;
+	padding-left: 80px;
+		background: url(https://www.my-procar.com/thumbs/data/categories/visuels/ressort-de-suspension-d-un-vehicule-vehicule-marque-vehicule-modele:11137.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 420px 160px;
+
+}
+}
+
+/*fin*/
+/*debut fm*/
+section.modules2 div.fm a{
+	
+}
+section.modules2 div.fm {
+	padding-right: 95px ;
+	padding-left: 95px;
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwg_99lHss0vYxXk55ZVNmoubqoxAm10sSIQ&usqp=CAU);
+	background-repeat: no-repeat;
+	background-position: center;	
+	background-size: 400px 180px;
+
+
+}
+
+/*fin*/
+
+/*debut elt*/
+section.modules2 div.elt a{
+	
+}
+section.modules2 div.elt {
+	padding-right: 55px ;
+	padding-left: 55px;
+		background: url(https://www.illico-travaux.com/wp-content/uploads/2018/01/Electricit%C3%A9-1280x852.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 400px 180px;
+
+
+}
+
+/*fin*/
+/*debut sdm*/
+section.modules2 div.sdm a{
+	
+}
+section.modules2 div.sdm {
+		padding-right: 78px ;
+	padding-left: 78px;
+	background: url(https://www.usinenouvelle.com/mediatheque/9/1/9/000923919_896x598_c.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 400px 180px;
+
+
+}
+
+/*fin*/
+/*debut tec*/
+section.modules2 div.tec a{
+
+}
+section.modules2 div.tec {
+	padding-right: 80px ;
+	padding-left: 80px;
+		background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhNUF-E7TkuMwpHVjtk1bTCOCpiE8_nXt1bMdvrC8Y-G2fCXm-ise8_N9oozWFL1fVnEg&usqp=CAU);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 315px 180px;
+
+
+}
+
+/*fin*/
+/*debut tp vom*/
+section.modules2 div.tpvom a{
+	
+}
+section.modules2 div.tpvom {
+	padding-right: 55px ;
+	padding-left: 55px;
+		background: url(https://i.ytimg.com/vi/ojkZfKH0fC0/maxresdefault.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 450px 200px;
+
+}
+
+/*fin*/
+/*debut tp rdm*/
+section.modules2 div.tprdm a{
+	
+}
+section.modules2 div.tprdm {
+	padding-right: 55px ;
+	padding-left: 55px;
+		background: url(https://www.researchgate.net/profile/Bezzazi-Boudjema/publication/281566567/figure/fig1/AS:391758031671297@1470413801211/Essais-de-flexion-a-flexion-trois-points-b-flexion-4-points-Les-contraintes.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 340px 120px;
+
+}
+
+/*fin*/
+
+
+/*fin*/
+/*debut tpfm*/
+section.modules2 div.tpfm a{
+
+}
+section.modules2 div.tpfm {
+	padding-right: 55px ;
+	padding-left: 55px;
+		background: url(https://i.ytimg.com/vi/n-kbfZBiSLE/maxresdefault.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 450px 200px;
+
+}
+
+/*fin*/
+/*debut tp mdf*/
+section.modules2 div.tpmdf a{
+
+}
+section.modules2 div.tpmdf {
+	padding-right: 55px ;
+	padding-left: 55px;
+		background: url(https://ense3.grenoble-inp.fr/medias/photo/mecaflu-3_1475141556123-jpg?ID_FICHE=66677);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 450px 200px;
+
+}
+
+/*fin*/
+/*debut tp mna*/
+section.modules2 div.tpmna a{
+
+}
+section.modules2 div.tpmna{
+	padding-right: 200px ;
+	padding-left: 200px;
+		background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyg977GaTwe8yiibB6HzOR2_LY4X-y6Fm6kNKM3EmUwrQtGO5EPVjjRXJezCE6DEziiDI&usqp=CAU);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 620px 210px;
+
+}
+
+/*fin*/
+/*debut tp dao*/
+section.modules2 div.tpdao a{
+	
+}
+section.modules2 div.tpdao {
+ 	padding-right: 200px ;
+	padding-left: 200px;
+		background: url(https://www.javelin-tech.com/blog/wp-content/uploads/2021/03/delmia-works-solidworks.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 610px 200px;
+
+}
+
+/*fin*/
+

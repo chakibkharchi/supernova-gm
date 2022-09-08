@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>probastatch1</title>
+	<link rel="stylesheet" type="text/css" href="stylecours.css">
+</head>
+<body class="probastatchap1">
+	<nav>
+	<div class="onglet">
+	<ul>
+		<li class="acceuil">
+		 <a href="probastat.html">
+			acceuil 
+		 </a>
+		</li>
+
+
+	</ul>
+	
+	</div>
+
+</nav>
+<header>
+	<h1>
+		CHAPITRE 1 : STATISTIQUE DESCRIPTIVE SIMPLE
+	</h1>
+	<h4>
+		La statistique est la science dont l'objet est de recueillir, de traiter et
+d'analyser des données issues de l'observation de phénomènes aléatoires.
+L'analyse des données est utilisée pour décrire les phénomènes étudiés,
+faire des prévisions et prendre des décisions à leurs sujet. En ce sujet la
+statistique est un outil essentiel pour la compréhension et la gestion des phé-
+nomènes complexes.
+La statistique descriptive a pour but de résumer l'information contenue
+dans les données de façon synthétique et efficace. Elle utilise pour cela des
+représentations de données sous forme de graphiques, de tableaux et d'indicateurs
+numériques (par exemple des moyennes). Elle permet de dégager les
+caractéristiques essentielles du phénomène étudié.
+On parle de statistique descriptive à une dimension (univariée), si les donn
+ées ne sont relatives qu'à une seule variable. Dans le cas où l'on s'intéresse à
+deux variables simultanément, on parle alors de statistique bivariée. Si l'ensemble
+des données provient de l'observation de plusieurs variables, on doit
+faire appel aux méthodes statistiques multivariées.
+	</h4>
+</header>
+<section class="chap1probastat">
+	<h3>
+1/ Généralités
+	</h3>
+<div>
+	<h5>
+		1.1/ Population :
+	</h5>
+	<p>
+		On appelle population un ensemble fini   noté 
+ Ω tel que :
+</p>
+ <p>Ω= {ω1 , ω2 , ω3 ......,ωN}. N est la taille de la population.
+Les éléments ωi(i = [1;N]) sont appelés individus ou unités statistiques.
+	</p>
+</div>
+<div>
+	<h5>
+		1.2/ Echantillon :
+	</h5>
+	<p>
+		On appelle échantillon un sous ensemble de la population
+de taille n, (n < N).
+	</p>
+</div>
+<h5>
+	Example :
+</h5>
+<p>
+	 On s'intéresse à l'ensemble des étudiants de l'U.S.T.H.B.</p>
+<p>(a) Population : les étudiants de l'U.S.T.H.B.</p>
+<p>(b) Individu : un étudiant de l'U.S.T.H.B.</p>
+<p>(c) Échantillon : un sous ensemble de 100 étudiants.
+</p>
+<h3>
+	2/Caractères (variables statistiques), modalités :
+</h3>
+<div>
+	<h5>
+		2.1/ Caractère (variable statistique)
+	</h5>
+	<p>
+		Un individu donné de la population peut être étudié selon certaines propri
+étés. Ces propriétés sont appelées caractères ou variables statistiques. On
+note X (ou Y ) le caractère d'intérêt.
+Un caractère X est une application :
+	</p>
+	<p>
+		Ω -->χ
+	</p>
+	<p>
+		ω --> X
+	</p>
+	<p>
+		χ est l'ensemble où X prend ses valeurs
+	</p>
+</div>
+<h5>
+	Example :
+</h5>
+<p>
+	1. On peut s'intéresser à : l'âge, poids, taille, sexe, série du bac, mention
+du bac des étudiants.</p>
+<p>2. On peut s'intéresser à : la couleur, l'année de production, le kilométrage
+des véhicules</p>
+<p>Selon les exemples précédents, on peut remarquer que χ peut être de
+nature différente (mesurable, non mesurable, dénombrable ou continu), donc
+on peut distinguer deux types de caractères.
+</p>
+<div>
+	<p>
+		Si χ  et ses valeurs ne sont pas mesurables,
+le caractère est dit qualitatif.
+	</p>
+</div>
+<h5>
+	Example :
+</h5>
+<p>
+	1. Mention du bac d'un étudiant, série du bac ;
+</p>
+<p>
+	2. Couleur du véhicule, groupe sanguin d'un malade .
+</p>
+<div>
+	<p>
+	Si χ  et ses valeurs sont mesurables,
+le caractère est dit quantitatif.
+	</p>
+	<p>
+		Un caractère quantitatif est dit discret si ses valeurs sont dénombrables
+:
+	</p>
+</div>
+<h5>
+	Example :
+</h5>
+<p>
+	1. Le nombre d'enfants par ménage ;
+</p>
+<p>
+2. La note d'un examen.
+</p>
+<div>
+	<p>
+	 Un caractère quantitatif est dit continu s'il peut prendre n'importe
+quelle valeur dans un intervalle donné de R
+	</p>
+</div>
+<h5>
+	Example :
+</h5>
+<p>
+	1. Moyenne du bac ;
+</p>
+<p>
+2. Taille d'un étudiant.
+</p>
+<div>
+	<h5>
+		2.2/ Modalités
+	</h5>
+	<p>
+		Les modalités sont les différentes valeurs que peut prendre le caractère
+X.</p>
+<p> Si le caractère est quantitatif discret, on note X = {x1; x2; ...; xk}, où les
+xi désignent les différentes valeurs possibles que peut prendre X, i.e les
+différentes modalités. Les xi sont supposés ordonnés x1 < x2<.... < xk.
+	</p>
+</div>
+<h5>
+	Example :
+</h5>
+<p>
+1. Les modalités du caractère "nombre d'enfants par ménage" sont :
+0, 1, 2, 3,. . .
+</p>
+<p>
+2. Les modalités du caractère "note d'un examen" sont : 5, 8.75, 10,
+11.25, 11.5,. . .
+</p>
+<div>
+	<p>
+		Si le caractère est quantitatif continu, on divise X en classes, les modalit
+és seront dans ce cas les différentes classes :
+	</p>
+	<p>
+		X = [l1; l2] = [b1; b2[∪[ [b2; b3[∪....∪[bi; bi+1[ ∪....∪  [bk; bk+1[
+	</p>
+	<p>
+		avec : b1 < l1 et bk+1 > l2
+	</p>
+</div>
+<div>
+	<h5>Remarque 1.</h5>
+	<p>
+		 Une classe est un intervalle fermé à gauche et ouvert à droite sauf pour
+la dernière classe.</p>
+<p> Les bi sont les extrémités des classes i = [1; k + 1].</p>
+ <p>ai = bi+1 - bi est l'amplitude de la classe [bi; bi+1[.
+	</p>
+	<p>
+		(bi + bi+1)/2est le centre de la classe [bi; bi+1[
+	</p>
+</div>
+<div>
+	<h5>
+		Choix du nombre de classes :
+	</h5>
+	<p>
+		Plusieurs méthodes ont été proposées pour le calcul du nombre de classes k.
+Nous citons :
+	</p>
+	<p>
+		k = [5log(n)]
+	</p>
+	<p>
+		k = √n , où n est la taille de la série statistique
+	</p>
+	<p>L'amplitude des classes est donc obtenue en divisant l'étendue de la série
+statistique "e" par le nombre de classes "k".</p>
+<p>
+	a= e/k = (xmax - xmin )/2
+</p>
+</div>
+<h3>
+	3/Effectif, fréquence
+</h3>
+<div>
+	<h5>
+		3.1/ Effectif (ou fréquence absolue)
+	</h5>
+	<p>
+		On appelle effectif de la modalité xi (respectivement de la classe [bi; bi+1[)
+le nombre noté ni égal au nombre de fois où la modalité xi a été observée
+(respectivement où une valeur de la classe [bi; bi+1[ est observée) pour i = [1; k].
+	</p>
+</div>
+<div>
+	<h5>
+		3.2/ 4.2. Effectif cumulé en xi
+	</h5>
+	<p>
+	On appelle effectif cumulé en xi (respectivement en [bi; bi+1[ ),  tel que :
+	</p>
+	<p>
+		 ni(~) = n1 + n2 + n3 + .....+ ni
+	</p>
+	<h5>
+		Remarque 2. n1(~) = n1
+	</h5>
+</div>
+<div>
+	<h5>
+		3.3. Fréquence ou fréquence relative
+	</h5>
+	<p>
+		On appelle fréquence de la modalité xi (respectivement de la classe [bi; bi+1[)
+le nombre noté fi tel que :
+	</p>
+	<p>
+		fi = ni/ n 
+	</p>
+</div>
+<div>
+	<h5>
+		4.4. Fréquence cumulée en xi
+	</h5>
+	<p>
+		La fréquence cumulée en xi (respectivement en [bi; bi+1[ ), est le nombre noté
+fi(~)  tel que :
+	</p>
+	<p>
+		fi(~) = f1 + f2 + f3 +...+ fi = ni(~)/n
+	</p>
+</div>
+<h3>
+	4/ Représentation des données
+</h3>
+<div>
+	<p>
+		Il y a plusieurs niveaux de description statistique : la présentation brute
+des données, des présentations par tableaux statistiques, des représentations
+graphiques et des indicateurs numériques fournis par des paramètres caract
+éristiques.
+	</p>
+</div>
+<div>
+	<h5>
+		4.1 /Série statistique
+	</h5>
+	<p>
+	On appelle série statistique la suite des valeurs prises par une variable X
+sur les unités d'observation.
+Les valeurs de la variable X sont notées :	
+	</p>
+	<p>x1; x2; ...; xi;...; xn</p>
+</div>
+<div>
+	<h5>
+		4.2 /Tableaux statistiques
+	</h5>
+	<p>
+Le tableau de distribution de fréquences (ou effectifs) est un mode synth
+étique de présentation des données. Sa constitution est immédiate dans le
+cas d'un caractère discret mais nécessite en revanche une transformation des
+données dans le cas d'un caractère continu.	
+	</p>
+</div>
+<h5>
+	Example 1 (cas d'un caractere qualitatif):
+</h5>
+<img alt="oups!!" src="img\example178.jpg">
+<h5>
+	Exemple 2 (Cas d'un caractère quantitatif discret)
+</h5>
+<img alt="oups!!" src="img\example179.jpg">
+<h5>
+	Exemple 3 (Cas d'un caractère quantitatif continu)
+</h5>
+<img alt="oups!!" src="img\example180.jpg">
+<div>
+	<h5>4.3 Représentations graphiques</h5>
+	<p>
+		Les représentations graphiques ont l'avantage de renseigner immédiatement
+sur l'allure générale de la distribution des données. Elles facilitent donc
+l'interprétation des données recueillies.
+	</p>
+	<h5>
+		4.3.1 /Caractère qualitatif
+	</h5>
+	<p>
+		Les représentations graphiques les plus utilisées d'une série statistique
+correspondant à un caractère qualitatif sont :</p>
+<p> la représentation en tuyaux d'orgue:La représentation en tuyaux d'orgue est un graphique qui, à chaque modalit
+é du caractère associe un rectangle de base constante et de hauteur
+proportionnelle à l'effectif (ou à la fréquence). </p><img alt="oups!!" src="img\example181.jpg">
+<p>-------------------------------------------------------</p>
+<p> la représentation en secteur circulaire: On appelle diagramme en secteur circulaire un graphique qui divise un
+disque en secteurs angulaires dont les angles au centre sont proportionnels
+aux effectifs (ou aux fréquences) de chaque modalité.
+	</p>
+	<p>
+		Pour une modalité xi, d'effectif ni, l'angle au centre θi correspondant
+est donné (en degrés) par :
+	</p>
+	<p>
+		θi = (ni / n )x 360 = fi x 360
+	</p>
+</p><img alt="oups!!" src="img\example182.jpg">
+</div>
+<div>
+	<h5>
+		4.3.2/ Caractère quantitatif discret
+	</h5>
+	<h5>
+		a/ Diagramme en bâtons :
+	</h5>
+	<p>
+		On appelle diagramme en bâtons un graphique qui associe à chaque
+valeur de la variable un segment (bâton) dont la hauteur est proportionnelle
+à l'effectif à la fréquence).
+	</p>
+	<h5>
+		Remarque 3
+	</h5>
+	<p>
+		On suppose que les valeurs de la variable quantitative
+discrète sont ordonnées par ordre croissant.
+	</p>
+	<img alt="oups!!" src="img\example183.jpg">
+	</div>
+	<div>
+	<h5>
+		b/ Diagramme cumulatif :
+	</h5>
+	<p>
+		On appelle diagramme cumulatif, la courbe représentative de la fonction
+de répartition.
+On appelle fonction de répartition d'une variable X, l'application
+notée F, dont l'ensemble de départ est R et d'ensemble d'arrivée,
+l'intervalle [0:1].
+	</p>
+	<img alt="oups!!" src="img\example184.jpg">
+</div>
+<div>
+	<h5>
+		4.3.3 / Caractère quantitatif continu
+	</h5>
+	<h5>
+		 a/ Histogramme
+	</h5>
+	<p>
+		On appelle histogramme un diagramme composé d'un ensemble de
+rectangles adjacents, chaque rectangle, associe à chaque classe, ayant
+une surface proportionnelle à l'effectif (où à la fréquence) de cette
+classe.
+Lorsque les classes sont d'amplitudes égales, la hauteur de chaque
+rectangle est proportionnelle à l'effectif (où à la fréquence).
+	</p>
+	<img alt="oups!!" src="img\example185.jpg">
+</div>
+<div>
+	<h5>
+	 b/ Courbe cumulative :
+	</h5>
+	<p>
+		On appelle courbe cumulative, la représentation graphique de la fonction
+de répartition de la variable X :
+	</p>
+	<p>
+		La courbe cumulative est obtenue en joignant, dans un système
+d'axes orthogonaux les points d'abscisses bi+1(extrémité supérieure
+de la classe [bi; bi+1[ et d'ordonnées f(~)
+	</p> 
+	<img alt="oups!!" src="img\example186.jpg">
+</div>
+<h3>
+	5/ Paramètres caractéristiques ( indicateurs statistiques)
+</h3>
+<div>
+	<p>
+		Un tableau ou un graphique sont parfois longs à consulter, sans permettre
+d'avoir une idée suffsamment claire sur la distribution statistique observée.
+On cherche alors à résumer celle-ci par un paramètre caractéristique, c'est à
+dire un seul nombre destiné à caractériser l'ensemble d'une façon objective.
+	</p>
+</div>
+<div>
+	<h5>
+		5.1/ Paramètres de position :
+	</h5>
+	<p>
+		Les paramètres de position (moyenne, mode, médiane. . .) permettent de
+savoir autour de quelles valeurs se situent les valeurs d'une variable statistique.
+	</p>
+<h5>
+	5.1.1 / Moyenne arithmétique
+</h5>
+<p>
+	- À partir des données brutes : x1; x2; x3;...... ; xn,
+la moyenne arithmétique, notée x(-), a pour expression :
+	<img alt="oups!!" src="img\example187.jpg">
+
+</p>
+<p>
+	----------------------------------------------------------------
+</p>
+<p>
+	-À partir du tableau statistique :
+</p>
+<p>
+	a) Pour une variable discrète :
+	
+</p>
+<img alt="oups!!" src="img\example188.jpg">
+<p>
+	b) Pour une variable continue :
+Pour calculer la moyenne arithmétique, on remplace xi par le
+centre de la ime classe, noté ci:<img alt="oups!!" src="img\example189.jpg">
+</p>
+</div>
+	<h5>
+	Example 
+</h5>
+<h5>
+	cas discret (voir Example 2) :
+</h5>
+<img alt="oups!!" src="img\example190.jpg">
+<h5>
+	cas continue (voir Example 3) :
+</h5>
+<img alt="oups!!" src="img\example191.jpg">
+<div>
+<h5>
+	5.1.2 / Mode
+</h5>
+<p>
+	Le mode, noté M0, est la valeur la plus fréquente prise par le caractère,
+c'est à dire celle qui se répète le plus souvent dans les données.
+</p>
+<p>
+	a) Pour une variable discrète : le mode est la valeur de X ayant le plus
+grand effectif (ou la plus grande fréquence).
+</p>
+<p>
+	b) Pour une variable continue : on détermine d'abord la classe modale,
+CM0 = [am; bm[, comme étant la classe qui a le plus grand effectif( ou
+fréquence), puis on calcule le mode par interpolation linéaire.	
+
+</p>
+<img alt="oups!!" src="img\example192.jpg">
+</div>
+<div>
+	<h5>
+		Remarque 4.
+	</h5>
+	<p>
+		Le mode n'est pas nécessairement unique, on peut trouver une distribution
+bimodale ou multimodale.
+</p><p>Le mode peut être calculer pour tout type de variables quantitatives et
+qualitatives
+	</p>
+</div>
+	<h5>
+	Example 
+</h5>
+<h5>
+	cas discret (voir Example 2) :
+</h5>
+<img alt="oups!!" src="img\example193.jpg">
+<h5>
+	cas continue (voir Example 3) :
+</h5>
+<img alt="oups!!" src="img\example194.jpg">
+<div>
+	<h5>
+		5.1.3 / Quantiles
+	</h5>
+	<p>
+		On appelle quantile d'ordre α; (α ∈ [0; 1]), d'une série statistique le
+nombre réel qα dont 100 x α% des observations lui sont inférieures ou égales
+et 100 x (1 - α )% lui sont supérieures ou égales.
+	</p>
+	<p>
+		- Cas discret Soit une série statistique brute rangée dans l'ordre croissant
+des observations x(1); x(2); ......; x(n), le quantile d'ordre α est donné par :
+	</p>
+	<img alt="oups!!" src="img\example195.jpg">
+	<p>
+		- Cas continu Dans le cas d'une série regroupée en classes, les quantiles
+gardent leur définition mais se calculent d'une autre manière.
+On définit d'abord la classe [bi; bi+1[ à la quelle appartient le quantile tel que :
+ni-1(~) < nα < ni(~) , qα est alors donné par la formule d'interpolation linéaire
+suivante :
+	</p>
+	<img alt="oups!!" src="img\example196.jpg">
+
+</div>
+<div>
+	<h5>Cas particuliers :</h5>
+	<p>
+		Les quantiles les plus utilisés sont :
+	</p>
+	<p>
+		-La médiane, notée Me, divise la population étudiée en deux groupes
+de même effectif(elle correspond à α = 1/2)</p>
+<p> - Les quartiles divisent la population étudiée en quatre parts égales,
+il y en a trois, notés Q1;Q2;Q3( ils correspondent respectivement à
+α = 1/4 ; 2/4 et 3/4 ).</p>
+<p> - Les déciles, il y en neuf, notés D1;D2;D3; : : : ;D9, découpent la population
+étudiée en dix parts égales( pour α = 1/10 ; 2/10 ; : : : ; 9/10 , respectivement).</p>
+<p>- Les centiles, il y en a quatre vint dix neuf, notés C1;C2; : : : ;C99:
+qui découpent la population en cent parts égales( respectivement, pour
+α = 1/100 ; 2/100 ; : : : ; 99/100 ).
+	</p>
+</div>
+	<h5>
+	Example 
+</h5>
+<h5>
+	cas discret (voir Example 2) :
+</h5>
+<img alt="oups!!" src="img\example197.jpg">
+<h5>
+	cas continue (voir Example 3) :
+</h5>
+<img alt="oups!!" src="img\example198.jpg">
+<div>
+	<h5>
+		Détermination graphique des quantiles
+	</h5>
+	<p>
+		On peut trouver les quantiles
+graphiquement en utilisant la courbe cumulative, il sufft de retrouver sur
+celle-ci l'abscisse qα qui correspond à l'ordonnée α.
+	</p>
+	<p>Cas discret </p>
+	<img alt="oups!!" src="img\example199.jpg">
+<p>Cas continu </p>
+<img alt="oups!!" src="img\example200.jpg">
+</div>
+<div>
+	<h5>5.2 / Paramètres de dispersion</h5>
+	<h5>
+		1) Étendue
+	</h5>
+	<p>
+		L'étendue d'une série statistique est l'écart entre sa plus grande et sa plus
+petite valeur
+</p><p>e = xmax - xmin
+	</p>
+		<h5>
+		2) L'intervalle inter-quartile
+	</h5>
+	<p>
+		c'est l'intervalle [Q1;Q3],il regroupe la moitié des observations qui se situent
+autour de la médiane( contient 50% d'observations centrales).
+	</p>
+	<h5>
+	3) Variance- écart-type
+	</h5>
+<p>
+	L'écart-type, noté σx, se définit par la racine carrée de la variance. On écrit :
+</p>
+<p>
+	σx =√ V(x)
+</p>
+<p>
+	- La série brute x1; x2; : : : ; xn, par :
+</p>
+<img alt="oups!!" src="img\example201.jpg">
+<p>
+	- Le tableau statistique
+</p>
+<img alt="oups!!" src="img\example202.jpg">
+</div>
+<div>
+	<h5>
+		Remarque
+	</h5>
+	<p>
+		Pour une variable continue, on remplace xi par le centre
+de la classe [bi; bi+1[ ; c'est-à-dire :
+	</p>
+	<img alt="oups!!" src="img\example203.jpg">
+</div>
+	<h5>
+	Example 
+</h5>
+<h5>
+	cas discret (voir Example 2) :
+</h5>
+<img alt="oups!!" src="img\example204.jpg">
+<h5>
+	cas continue (voir Example 3) :
+</h5>
+<img alt="oups!!" src="img\example205.jpg">
+<div>
+	<h5>
+		4) Coefficient de variation
+	</h5>
+	<p>
+		Le coefficient de variation, noté CV, est défini par :
+	</p>
+<img alt="oups!!" src="img\example206.jpg">
+<p>
+	- Si CV x 100% < 15% alors la population est homogène.
+</p><p>- Si CV x 100% > 15% alors la population est relativement dispersée.
+</p>
+</div>
+<div>
+	<h5>
+		5.3 Paramètres de forme:
+	</h5>
+	<p>
+		Les deux types de mesures qui caractérisent la forme de la distribution
+sont :
+	</p>
+	<h5>
+		a) Coefficient d'asymétrie
+	</h5>
+	<p>
+		Ils existes différentes mesures qui caractérisent l'asymétrie d'une distribution.
+On se limite dans ce cours au coeffcient de "Fisher " défini comme
+suit :
+	</p>
+	<img alt="oups!!" src="img\example207.jpg">
+<p>
+	μ3 représente le moment centré d'ordre trois et σX l'écart-type de la variable.
+</p><p>- Si 
+γ1 = 0, la distribution est symétrique, dans ce cas M0 ' Me ' x.
+</p><p>- Si 
+γ1 > 0, la distribution est asymétrique avec un étalement à droite, dans
+ce cas M0 < Me < x.
+</p><p>- Si 
+γ1 < 0, la distribution est asymétrique avec un étalement à gauche, dans
+ce cas M0 > Me > x.
+</p>
+	<img alt="oups!!" src="img\example208.jpg">
+
+</div>
+<div>
+	<h5>
+		b) Coefficient d'aplatissement
+	</h5>
+	<p>
+		Pour mesurer l'aplatissement de la courbe, on utilise le coefficient de
+"Fisher", noté 
+γ2, basé sur le moment centré d'ordre 4.
+	</p>
+	<img alt="oups!!" src="img\example209.jpg">
+	<p>
+		- Si 
+γ2 = 0, la courbe est "Normale".
+</p><p>- Si 
+γ2 > 0, la courbe est "Hypo-Normale"(moins aplatie que la courbe de
+la loi Normale).
+</p><p>- Si 
+γ2 < 0, la courbe est "Hyper-Normale"(plus aplatie que la courbe de la
+loi Normale).
+	</p>
+	<img alt="oups!!" src="img\example210.jpg">
+</div>
+<div>
+	<h5>
+		Changement de variable pour le calcul de x(-) et V(X)
+	</h5>
+	<p>
+		Étant donnée une série statistique groupée en classes, on peut procéder
+à un changement de variable comme suit :
+On pose : Y = (X-c*)/l
+	</p>
+	<p>
+		On déduit alors,
+	</p>
+	<p>
+		i = 1;....; k;
+	</p>
+	<p>
+		où c* le centre de la classe centrale et l l'amplitude.
+	</p>
+	<p>
+		Alors, on a :
+	</p>
+	<img alt="oups!!" src="img\example211.jpg">
+	<p>
+		Un changement de variable peut être utile pour simplifier les
+calculs.
+	</p>
+</div>
+</section>
+</body>
+</html>

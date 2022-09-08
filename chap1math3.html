@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>math3ch1</title>
+	<link rel="stylesheet" type="text/css" href="stylecours.css">
+</head>
+<body class="math3chap1">
+	<nav>
+	<div class="onglet">
+	<ul>
+		<li class="acceuil">
+		 <a href="math3.html">
+			acceuil 
+		 </a>
+		</li>
+
+
+	</ul>
+	
+	</div>
+
+</nav>
+<header>
+	<h1>
+		CHAPITRE1 : LES SERIE NUMERIQUE 
+	</h1>
+</header>
+<section class="chap1math3">
+ <h3>
+ 	1 / SERIES A TERME POSITIFS
+ </h3>
+ <h4>
+ 	1.1 / REGLES DE COMPARAISONS
+ </h4>
+ <div>
+ <h5>
+ 	Theoreme (regle de comparaison)
+ </h5>
+<p> 
+ 	 soit ΣUn et ΣVn deux serie a termes positifs on suppose que  0 ≤ Un ≤ Vn pour tous n ∈ N :
+ </p>
+ <p>
+ 	   - ΣVn converge ==> ΣUn converge  
+ </p>
+ <p>
+ 	   -ΣUn diverge ==> ΣVn diverge
+ </p>
+
+</div>
+
+  <h5>
+  	Examples
+
+ </h5>
+    <img alt="oups!!" src="img\example1.jpg">
+ <div>
+ <h5>
+ 	Theoreme (regles de comparaison logarithmique)
+ </h5>
+ <p>
+ 	soit ΣUn et ΣVn deux serie a termes strictement positifs on suppose que  0 ≤ (Un+1 /Un) ≤ (Vn+1/Vn) pour tous n ∈ N :
+ </p>
+  <p>
+ 	   - ΣVn converge ==> ΣUn converge  
+ </p>
+ <p>
+ 	   -ΣUn diverge ==> ΣVn diverge
+ </p>
+</div>
+ <h5>
+ 	Examples
+ </h5>
+<img alt="oups!!" src="img\example2.jpg">
+ <div>
+ <h5>
+ 	Theoreme (critere d'equivalences)
+ </h5>
+ <p>
+ 	soit ΣUn et ΣVn deux serie a termes strictement positifs on suppose que 
+
+ </p>
+<p>
+ [lim n → +∞ (Un/Vn)] = l ; l ≠ 0 et l ≠ +∞ 
+</p>
+<p>
+	alors les deux series ΣUn et ΣVn sont de meme nature
+</p>
+</div>
+ <h5>
+ 	Examples
+ </h5>
+ <img alt="oups!!" src="img\example3.jpg">
+  <div>
+ <h5>
+ 	Theoreme ( comparaison avec une integrale )
+ </h5>
+ <p>
+	soit f:[1 ; +∞[ → R+ une application continue decroissante eet positive , on pose Un =f(n) pour tous n ∈ N* alors 
+</p>
+<p>
+	ΣUn converge <=>  ∫ f(x)dx  exsiste 
+</p>
+</div>
+
+<h5>
+  Examples	
+</h5>
+ <img alt="oups!!" src="img\example3.jpg">
+ <h4>
+ 	1.2 / SERIE DE REIMANN
+ </h4>
+ <div>
+ 	<h5>
+ 		Definition
+ 	</h5>
+ 	<p>
+ 		on appelle serie de REIMANN ΣUn toute serie dont le terme generale est de la forme   
+ 	</p>
+ 	<img alt="oups!!" src="img\eqt4.jpg">
+  	<p>
+ 		n>1 et α ∈ R
+ 	</p>
+ </div>
+ <div>
+ 	<h5>
+ 		Proposition
+ 	</h5>
+ 	<p>
+ 		la serie de REIMANN <img alt="oups!!" src="img\eqt5.jpg"> converge si et seulemnet si α > 1 
+ 	</p>
+ </div>
+ <h5>
+ 	Examples
+ </h5>
+  <img alt="oups!!" src="img\example5.jpg">
+   <h4>
+ 	1.3 / CRITERE D'ALAMBERT
+ </h4>
+ <div>
+ 	<h5>
+ 		Corollaire (critere d'ALAMBERT)
+ 	</h5>
+ 	<p>
+ 		soit ΣUn une serie a terme strictement positif posons :
+ 	</p>
+ 		<img alt="oups!!" src="img\eqt1.jpg">
+ 	
+ 	<p>
+ 		- l < 1   --> ΣUn converge 
+ 	</p>
+ 	<p>
+ 		- l > 1   --> ΣUn diverge 
+ 	</p>
+ 	<p>
+ 		- l = 1   --> on ne peut rien conclure  
+ 	</p>
+ </div>
+ <h5>
+ 	Examples
+ </h5>
+<img alt="oups!!" src="img\example6.jpg">
+<h4>
+ 	1.4 / CRITERE DE CAUCHY 
+ </h4>
+ <div>
+ 	<h5>
+ 		Corollaire (Critere de CAUCHY)
+ 	</h5>
+ 	<p>
+ 		soit ΣUn une serie a terme strictement positif posons :
+ 	</p>
+    <img alt="oups!!" src="img\eqt2.jpg">
+ 	 <p>
+ 		- l < 1   --> ΣUn converge 
+ 	</p>
+ 	<p>
+ 		- l > 1   --> ΣUn diverge 
+ 	</p>
+ 	<p>
+ 		- l = 1   --> on ne peut rien conclure  
+ 	</p>
+
+ </div>
+  <h5>
+ 	Examples
+ </h5>
+<img alt="oups!!" src="img\example7.jpg">
+<div>
+	<p>une question se pose maintenant peut on avoire des limites differentes en appliquant les deux critere d'Alebert et celui de Cauchy ?<p>
+	<p>
+		la reponse est donnee par la proposition  suivante :
+	</p>
+	<h5>
+		Proposition
+	</h5>
+	<p>
+		soit ΣUn une serie a terme strictement positif 
+	</p>
+	<p>
+		1. si  <img alt="oups!!" src="img\eqt6.jpg">et <img alt="oups!!" src="img\eqt7.jpg">     alors l1 = l2
+
+	</p>
+	<p>
+		2.  <img alt="oups!!" src="img\eqt1.jpg"> alors     <img alt="oups!!" src="img\eqt2.jpg">
+	</p>
+
+</div>
+<h4>
+	1.5 CRITERE DE RAABE DUHAMEL
+</h4>
+<div>
+	<h5>
+		Proposition 
+	</h5>
+	<p>
+		soit soit ΣUn une serie a terme strictement positif on pose :
+	</p>
+	<img alt="oups!!" src="img\eqt1.jpg">
+	 <p>
+ 		- l > 1   --> ΣUn converge 
+ 	</p>
+ 	<p>
+ 		- l < 1   --> ΣUn diverge 
+ 	</p>
+ 	<p>
+ 		- l = 1   --> on ne peut rien conclure  
+ 	</p>
+
+
+</div>
+ <h3>
+ 	2 / SERIES A TERME QUELCONQUES
+ </h3>
+ <div>
+ 	<h5>
+ 	Definition
+ </h5>
+ <p>
+ 	on appelle serie quelconque une serie ΣUn dont les termes peuvent etre positifs ou negatifs suivant les valeurs prise par n   
+ </p>
+ </div>
+ <h5>
+ 	Examples
+ </h5>
+<img alt="oups!!" src="img\example8.jpg">
+ 	<h4>
+ 		2.1 / CRITERE D'ABEL
+ 	</h4>
+ 	<div>
+ 		<h5>
+ 			Proposition (critere d'ABEL)
+ 		</h5>
+ 	<p>
+		soit ΣUn une serie a terme quelconques on suppose que :   Un = An . Bn , avec Bn strictement positif telles que 
+	</p>
+
+    <p>
+ 		- la suite (Bn)n est decroissante et tend vers 0 (Bn+1 > Bn )	
+ 	</p>
+ 	<p>
+ 		il existe M > 0 tel que pour tous p,q ∈ N  p>q ==> |Aq +Aq+1 + Aq+2 + ......+Ap|< M 
+ 	</p>
+ 	<p>
+ 		alors la serie ΣUn est convergente 
+ 	</p>
+ 	</div>
+ 	 <h5>
+ 	Examples
+ </h5>
+<img alt="oups!!" src="img\example9.jpg">
+<h4>
+	2.2 / SERIES ALTERNEES
+</h4>
+<div>
+	<h5>
+		Definition
+	</h5>
+	<p>
+		on appelle serie alternée ΣUn tout series verifiant la relation      Un.Un+1<0
+	</p>
+</div>
+<div>
+	<h5>
+		Proposition (Critere de Leibniz) 
+	</h5>
+	<p>
+		soit ΣUn une serie alternée on suppose que la suite (|Un|)n est decroissante et<img alt="oups!!" src="img\eqt8.jpg"> alors la serie ΣUn est convergente de plus pour tout entier n ∈ N on a :
+	</p>
+	<img alt="oups!!" src="img\eqt9.jpg">
+</div>
+ 	 <h5>
+ 	Examples
+ </h5>
+<img alt="oups!!" src="img\example10.jpg">
+ <h3>
+ 	3 / SERIES ABSOLUMENT CONVERGENTE 
+ </h3>
+ <div>
+ 	<h5>
+ 		Definition 
+ 	</h5>
+ 	<p>
+ 		une serie ΣUn est dite semi-convergente si elle converge et la serie Σ|Un| est divergente
+ 	</p>
+ </div>
+  <h5>
+ 	Examples
+ </h5>
+<img alt="oups!!" src="img\example11.jpg">
+
+</section>
+
+</body>

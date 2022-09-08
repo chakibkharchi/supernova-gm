@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>probastatch3</title>
+	<link rel="stylesheet" type="text/css" href="stylecours.css">
+</head>
+<body class="probastatchap3">
+	<nav>
+	<div class="onglet">
+	<ul>
+		<li class="acceuil">
+		 <a href="probastat.html">
+			acceuil 
+		 </a>
+		</li>
+
+
+	</ul>
+	
+	</div>
+
+</nav>
+<header>
+	<h1>
+		CHAPITRE 3 : CALCULE DES PROBABILITE
+	</h1>
+	<h4>La théorie des probabilités fournit des modèles mathématiques permettant
+l'étude d'expérience dont le résultat ne peut être prévu avec certitude
+(expérience aléatoire).
+		
+	</h4>
+</header>
+<section class="chap3probastat">
+	<h3>
+1/ Définitions
+</h3>
+<div>
+	<h5>
+		1.1 Espace fondamental
+	</h5>
+	<p>
+		Pour une expérience aléatoire donnée, l'ensemble des résultats possibles
+est appelé l'ensemble fondamental. Il est noté 
+.
+	</p>
+	<h5>
+		2.2 Evènement
+	</h5>
+	<p>
+		Un évènement A est un sous ensemble de 
+Ω, c'est à dire un ensemble de
+résultats possible, A appartient a Ω
+.</p><p>
+Un évènement est dit réalisé au cours de l'expérience si un des évènements
+élémentaires qui le constitue est réalisé.</p>
+
+<p> Un singleton {ω} constitué d'un seul élément de 
+ est appelé évènement
+élémentaire.
+	</p>
+	<p>
+	 L'ensemble vide Ø ne constituant aucun résultat possible est appelé
+évènement impossible.
+	</p>
+	<p>
+ L'ensemble Ω
+ contenant tous les résultats possibles est l'évènement
+certain
+	</p>
+</div>
+<h5>
+	Exemple
+</h5>
+<p>
+	On jette deux pièces de monnaie. L'ensemble des résultats possibles :
+
+</p><p> Ω = {(P; P); (F; P); (P; F); (F; F)}</p>
+<p>où F pour "face", P pour "pile".</p>
+<p>A :"Avoir deux fois pile", A = {(P; P)}</p>
+<p>B :"Avoir au moins une fois pile", B = {(P; P); (P; F); (F,P)}
+</p>
+<h3>
+	2/ Opérations sur les évènements
+</h3>
+<div>
+	<p>
+		Sur les évènements, on peut appliquer les opérations habituelles de la
+théorie des ensembles.
+	</p>
+	<h5>
+		2.1 L'union ou la disjonction
+	</h5>
+	<p>
+		L'évènement A ∪ B est réalisé dès que A ou B est réalisé, cela est équivalent
+à dire que : "au moins l'un des deux évènements A et B soit réalisé".
+	</p>
+	<h5>
+		2.2 L'intersection ou la conjonction
+	</h5>
+	<p>
+		L'évènement A ∩ B est réalisé si et seulement si les deux évènements A
+et B sont réalisés simultanément.
+	</p>
+	<h5>
+		2.3 Le complémentaire ou négation
+	</h5>
+	<p>
+		On appelle négation ou complémentaire de A dans Ω
+ noté A (barre), l'évènement
+qui est réalisé si et seulement si A n'est pas réalisé, donc A(barre) est l'ensemble
+des éléments de Ω
+ qui n'appartiennent pas à A.
+	</p>
+	<h5>
+		2.4 La différence
+	</h5>
+	<p>
+		L'évènement différence de deux évènements A et B noté A\B est réalisé
+quand A est réalisé et B ne l'est pas.
+	</p>
+	<h5>
+		2.5 Evènements incompatibles (disjoints)
+	</h5>
+	<p>
+		Quand les deux évènements A et B ne peuvent pas se réaliser simultané-
+ment, on dit qu'ils sont incompatibles, on écrit :
+	</p>
+	<p>
+		A ∩ B = Ø 
+	</p>
+	<h5>
+		2.6 Système complet d'évènements
+	</h5>
+	<p>
+		Les évènements A1;A2; .... ;An forment un système complet d'évènements
+si les (Ai) constituent une partition de 
+Ω, c'est à dire :
+ - Les évènements sont 2 à 2 disjoints i.e (Ai ∩ Aj = Ø  tout i ≠ j)
+	</p>
+</div>
+<h3>
+	4 Définition d'une probabilité
+</h3>
+<div>
+	<p>
+		Soit Ω
+ un espace fondamental fini. On appelle probabilité P toute application
+de l'ensemble des parties de 
+ (noté P(Ω
+)) dans l'intervalle [0; 1] telle
+que :
+	</p>
+	<p>
+		P : P(Ω) -> [0; 1]
+</p><p>A -> P(A)
+	</p>
+	<p>
+		verifiant:
+	</p>
+	<p>
+		1. tout A ∈ P(Ω) ; P(A) > 0
+</p><p>2. P(Ω) = 1 et P(Ø) = 0.
+</p><p>3. tout A,B ∈ P(Ω)  si A ∩ B = Ø alors : P(A ∪ B) = P(A) + P(B)
+	</p>
+	<p>
+		A chaque évènement élémentaire ωi, on associe un nombre réel pi tel que
+	</p>
+	<p>
+		pi = P(ωi) avec 0 < pi < 1 et ΣPi = 1
+	</p>
+	<p>
+		et à chaque évènement A est associé le nombre réel P(A) défni par :
+	</p>
+	<p>
+		ΣPi = P(A)
+	</p>
+	<p>
+		c'est à dire si A = {ω1; ω2;.......; ωk} alors :
+</p><p>P(A) = p1 + p2 + ....... + pk</p>
+Et si de plus, tous les évènements élémentaires sont équiprobables, i.e :
+	</p>
+<p>
+	pi = P(ωi) =1/n
+</p>
+<p>
+	alors 
+</p>
+<p>
+	P(A) =|A| / |Ω| = k / n
+</p>
+<p>
+	on ecrit aussi 
+</p>
+<p>
+	(Nombre de cas favorables)/(Nombre de cas possibles)
+</p>
+</div>
+<div>
+	<h5>
+		Propriétés
+	</h5>
+<p>
+	 Additivité : (cas de deux évènements) :
+</p>
+<p>
+	P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
+</p>
+<img alt="oups!!" src="img\example246.jpg">
+</div>
+<h5>
+	Exemples
+</h5>
+
+	<p>
+		1. L'expérience aléatoire consiste à lancer un dé, on veut calculer la probabilit
+é d'obtenir un nombre pair. Soit l'évènement A :"obtenir un nombre
+pair"
+<p>A = {2; 4; 6}</p>
+<p>On a : P(1) = P(2) = P(3) = P(4) = P(5) = P(6) =1\6
+, alors :
+	</p>
+	<p>
+		P(A) =|A| / |Ω| = 3 / 6 = 1 / 2
+	</p>
+<h3>
+	5 Probabilités conditionnelles
+</h3>
+<div>
+	<p>
+		Soient A et B deux évènements de P(Ω), telle que P(B) ≠ 0.
+La probabilité conditionnelle de A sachant que l'évènement B est réalisé, est
+notée : P(A=B) et définie par
+	</p>
+<img alt="oups!!" src="img\example247.jpg">
+
+</div>
+<h5>
+	Exemples
+</h5>
+<img alt="oups!!" src="img\example248.jpg">
+<div>
+	<h5>
+		Propriétés
+	</h5>
+<p>
+	Soient A et B deux évènements tels que : P(A) ≠ 0.  0 et P(B) ≠ 0.
+</p>
+<p>P(A ∩ B) = P(A/B) x P(B)
+= P(B/A) x P(A)</p>
+<p>2. P(A(barre)/B) = 1 - P(A/B)
+</p>
+</div>
+<h3>
+	5/ Indépendance de deux évènements
+</h3>
+<div>
+	<p>
+		Soient A et B deux évènements. A et B sont dits indépendants si la
+réalisation de l'un ne dépend pas de la réalisation de l'autre ou encore que la
+réalisation de l'un ne change en rien la probabilité de réalisation de l'autre.
+Deux évènements A et B sont indépendants si et seulement si :
+	</p>
+	<p>
+		P(A ∩ B) = P(A) x P(B)
+	</p>
+	<h5>
+		Remarque 1
+	</h5>
+	<p>
+		Si P(B) ≠  0, A et B sont indépendants si et seulement si :
+<p>P(A/B) = P(A)</p>
+	<p>
+		Si P(A) ≠ 0, A et B sont indépendants si et seulement si :
+	</p>
+	<p>P(B/A) = P(B)</p>
+	<h5>Propriété
+	</h5>
+	<p>
+		Si les évènements A et B sont indépendants, alors, les évènements suivants
+le sont aussi :
+	</p>
+	<p>
+		1. A et B(barre)</p>
+<p>2. A(barre) et B</p>
+<p>3. A(barre) et B(barre)
+	</p>
+	<h5>
+		Remarque 2
+	</h5>
+	<p>
+		Deux évènements incompatibles A et B avec : P(A) > 0 et P(B) > 0, ne
+sont jamais indépendants.</p>
+<p>En effet :
+	</p>
+	<p>
+		A ∩  B = Ø ===> P(A ∩  B) = 0 ≠ P(A) P(B)
+	</p>
+</div>
+<h5>
+	Exemple 1
+</h5>
+<img alt="oups!!" src="img\example249.jpg">
+<h5>
+	Exemple 2
+</h5>
+<img alt="oups!!" src="img\example250.jpg">
+<h3>
+	6/ Formule des probabilités totales
+</h3>
+<div>
+	<p>
+		Soit A1;A2; ....... ;An un système complet d'évènements de 
+, alors pour
+tout évènement B, on a :
+	</p>
+<img alt="oups!!" src="img\example251.jpg">
+
+</div>
+<h3>
+	7/ Théorème de Bayes
+</h3>
+<div>
+	<p>
+		Soit A1;A2;.......;An un système complet d'évènements, alors :
+	</p>
+	<img alt="oups!!" src="img\example252.jpg">
+	<p>
+		En utilisant la formule des probabilités totales, on obtient :
+	</p>
+	<img alt="oups!!" src="img\example253.jpg">
+</div>
+<h5>
+	Exemple
+</h5>
+	<img alt="oups!!" src="img\example254.jpg">
+</section>
+</body>
+</html>
